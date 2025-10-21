@@ -56,6 +56,9 @@ if __name__ == "__main__":
     C2_log_err   = np.full((no_of_trials, no_of_time_samples), np.nan)
     phi_log_err  = np.full((no_of_trials, no_of_time_samples), np.nan)
 
+    C_max, C_min = 2.7, 0.0
+    phi_max, phi_min = 1.0, 1.0
+    
     # Loop over trials
     for k, trial_no in enumerate(trial_index_vec):
         print(f"[INFO] Processing trial {trial_no}...")
@@ -74,11 +77,10 @@ if __name__ == "__main__":
         C2_DNS_grid = np.zeros((no_of_time_samples, x_num_of_points))
         phi_DNS_grid = np.zeros((no_of_time_samples, x_num_of_points))
 
-
-        C1_asymp 
-
-
-        
+        C1_asymp_grid = np.zeros((no_of_time_samples, x_num_of_points))
+        C2_asymp_grid = np.zeros((no_of_time_samples, x_num_of_points))
+        phi_asymp_grid = np.zeros((no_of_time_samples, x_num_of_points))
+      
         for i, time_index in enumerate(time_index_vec):
             print(f"[INFO]  Sample {i+1}/{no_of_time_samples} for trial_{trial_no:02d}...")
             C1_in, C2_in, phi_in = inputs[time_index]
@@ -116,21 +118,65 @@ if __name__ == "__main__":
                     t_current += dt_temp
                     print(f"[INTERNAL LOOP] Advanced to t = {t_current:.5e} / {dt:.5e}")
 
-            # Compute log10 errors
-            C1_loss = np.linalg.norm(C1_asymp - C1_out, ord=2)
-            C1_norm = np.linalg.norm(C1_out, ord=2)
+                # Store DNS and asymptotic results for visualization
+        C1_DNS_grid[i, :]  = C1_out
+        C2_DNS_grid[i, :]  = C2_out
+        phi_DNS_grid[i, :] = phi_out
 
-            C2_loss = np.linalg.norm(C2_asymp - C2_out, ord=2)
-            C2_norm = np.linalg.norm(C2_out, ord=2)
+        C1_asymp_grid[i, :]  = C1_asymp
+        C2_asymp_grid[i, :]  = C2_asymp
+        phi_asymp_grid[i, :] = phi_asymp
 
-            phi_loss = np.linalg.norm(phi_asymp - phi_out, ord=2)
+    # ----------------------------------------------------------------------
+    # After completing all time steps for this trial → plot results
+    # ----------------------------------------------------------------------
 
-            # L2 error at boundaries
-            if not (np.isinf(C1_loss) or np.isinf(C2_loss) or np.isinf(phi_loss)):
-                C1_rel_loss, C2_rel_loss, phi_loss = C1_loss/C1_norm, C2_loss/C2_norm, phi_loss / np.sqrt(phi_asymp.shape[0])
-                C1_log_err[k, i]  = np.log10(max(np.abs(C1_rel_loss),1E-8))
-                C2_log_err[k, i]  = np.log10(max(np.abs(C2_rel_loss),1E-8))
-                phi_log_err[k, i] = np.log10(max(np.abs(phi_loss), 1E-8))
+    fig, axes = plt.subplots(2, 3, figsize=(18, 10), constrained_layout=True)
+    fields = [
+        (C1_DNS_grid, C1_asymp_grid, "C₁", C_min, C_max),
+        (C2_DNS_grid, C2_asymp_grid, "C₂", C_min, C_max),
+        (phi_DNS_grid, phi_asymp_grid, "ϕ", phi_min, phi_max)
+    ]
+
+    for col, (dns_grid, asymp_grid, title, vmin, vmax) in enumerate(fields):
+        # --- Row 1: DNS ---
+        pcm_dns = axes[0, col].pcolormesh(
+            X_mesh, T_mesh, dns_grid,
+            shading='auto', cmap='viridis', vmin=vmin, vmax=vmax
+        )
+        cbar_dns = fig.colorbar(pcm_dns, ax=axes[0, col])
+        cbar_dns.set_label(f"{title} (DNS)")
+        axes[0, col].set_title(f"{title} (DNS)")
+        axes[0, col].set_ylabel("Time")
+        axes[0, col].set_xlabel("x")
+
+        # --- Row 2: Asymptotic ---
+        pcm_asymp = axes[1, col].pcolormesh(
+            X_mesh, T_mesh, asymp_grid,
+            shading='auto', cmap='viridis', vmin=vmin, vmax=vmax
+        )
+        cbar_asymp = fig.colorbar(pcm_asymp, ax=axes[1, col])
+        cbar_asymp.set_label(f"{title} (Asymptotic)")
+        axes[1, col].set_title(f"{title} (Asymptotic)")
+        axes[1, col].set_ylabel("Time")
+        axes[1, col].set_xlabel("x")
+
+    fig.suptitle(
+        f"Trial {trial_no:02d} — ε = {eps:.2e}",
+        fontsize=16, fontweight='bold'
+    )
+
+    # Create output directory if not exists
+    os.makedirs("figures", exist_ok=True)
+
+    # Save figure
+    out_path = os.path.join("figures", f"trial_{trial_no:02d}.png")
+    plt.savefig(out_path, dpi=300)
+    plt.close(fig)
+
+    print(f"[SAVED] {out_path}")
+        
+            
 
       
     
