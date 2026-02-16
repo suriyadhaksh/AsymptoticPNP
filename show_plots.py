@@ -14,7 +14,7 @@ from perturbsolution import asymptoticPNPsolve
 if __name__ == "__main__":
 
     # Allow smaller time steps
-    if_smaller_dt = True
+    if_smaller_dt = False
 
     # Data setup
     data_base_dir = "./"
@@ -51,13 +51,8 @@ if __name__ == "__main__":
 
     epsilon_vec = np.array(epsilon_vec)
 
-    # Pre-allocate error arrays
-    C1_log_err   = np.full((no_of_trials, no_of_time_samples), np.nan)
-    C2_log_err   = np.full((no_of_trials, no_of_time_samples), np.nan)
-    phi_log_err  = np.full((no_of_trials, no_of_time_samples), np.nan)
-
     C_max, C_min = 2.7, 0.0
-    phi_max, phi_min = 1.0, 1.0
+    phi_max, phi_min = -1.0, 1.0
     
     # Loop over trials
     for k, trial_no in enumerate(trial_index_vec):
@@ -69,9 +64,9 @@ if __name__ == "__main__":
         outputs = data['output_data']
 
         x_num_of_points = X_vec.shape[0]
-        time_vec_epsilon = np.linspace(0, 20, no_of_time_samples)
+        time_vec_epsilon = np.linspace(0, 20, total_steps)
 
-        X_mesh, T_mesh = np.meshgrid(X_vec, time_vec[time_index_vec])
+        X_mesh, T_mesh = np.meshgrid(X_vec, time_vec_epsilon[time_index_vec])
 
         C1_DNS_grid = np.zeros((no_of_time_samples, x_num_of_points))
         C2_DNS_grid = np.zeros((no_of_time_samples, x_num_of_points))
@@ -82,7 +77,7 @@ if __name__ == "__main__":
         phi_asymp_grid = np.zeros((no_of_time_samples, x_num_of_points))
       
         for i, time_index in enumerate(time_index_vec):
-            print(f"[INFO]  Sample {i+1}/{no_of_time_samples} for trial_{trial_no:02d}...")
+            print(f"\n[INFO]  Sample {i+1}/{no_of_time_samples} for trial_{trial_no:02d}...")
             C1_in, C2_in, phi_in = inputs[time_index]
             C1_out, C2_out, phi_out = outputs[time_index]
 
@@ -95,7 +90,7 @@ if __name__ == "__main__":
                     X_vec,
                     dt,
                     tol=1e-8,
-                    max_iter=100,
+                    max_iter=1000,
                     ifInterpol=True
                 )
 
@@ -110,8 +105,8 @@ if __name__ == "__main__":
                         -1.0, 1.0,
                         X_vec,
                         dt_temp,
-                        tol=1e-8,
-                        max_iter=100,
+                        tol=1e-5,
+                        max_iter=1000,
                         ifInterpol=True
                     )
 
@@ -119,67 +114,67 @@ if __name__ == "__main__":
                     print(f"[INTERNAL LOOP] Advanced to t = {t_current:.5e} / {dt:.5e}")
 
                 # Store DNS and asymptotic results for visualization
-        C1_DNS_grid[i, :]  = C1_out
-        C2_DNS_grid[i, :]  = C2_out
-        phi_DNS_grid[i, :] = phi_out
+            C1_DNS_grid[i, :]  = C1_out
+            C2_DNS_grid[i, :]  = C2_out
+            phi_DNS_grid[i, :] = phi_out
 
-        C1_asymp_grid[i, :]  = C1_asymp
-        C2_asymp_grid[i, :]  = C2_asymp
-        phi_asymp_grid[i, :] = phi_asymp
+            C1_asymp_grid[i, :]  = C1_asymp
+            C2_asymp_grid[i, :]  = C2_asymp
+            phi_asymp_grid[i, :] = phi_asymp
 
-    # ----------------------------------------------------------------------
-    # After completing all time steps for this trial → plot results
-    # ----------------------------------------------------------------------
+        # ----------------------------------------------------------------------
+        # After completing all time steps for this trial → plot results
+        # ----------------------------------------------------------------------
 
-    fig, axes = plt.subplots(2, 3, figsize=(18, 10), constrained_layout=True)
-    fields = [
-        (C1_DNS_grid, C1_asymp_grid, "C₁", C_min, C_max),
-        (C2_DNS_grid, C2_asymp_grid, "C₂", C_min, C_max),
-        (phi_DNS_grid, phi_asymp_grid, "ϕ", phi_min, phi_max)
-    ]
+        fig, axes = plt.subplots(2, 3, figsize=(18, 10), constrained_layout=True)
+        fields = [
+            (C1_DNS_grid, C1_asymp_grid, "C₁", C_min, C_max),
+            (C2_DNS_grid, C2_asymp_grid, "C₂", C_min, C_max),
+            (phi_DNS_grid, phi_asymp_grid, "ϕ", phi_min, phi_max)
+        ]
 
-    for col, (dns_grid, asymp_grid, title, vmin, vmax) in enumerate(fields):
-        # --- Row 1: DNS ---
-        pcm_dns = axes[0, col].pcolormesh(
-            X_mesh, T_mesh, dns_grid,
-            shading='auto', cmap='viridis', vmin=vmin, vmax=vmax
+        for col, (dns_grid, asymp_grid, title, vmin, vmax) in enumerate(fields):
+            # --- Row 1: DNS ---
+            pcm_dns = axes[0, col].pcolormesh(
+                X_mesh, T_mesh, dns_grid,
+                shading='auto', cmap='viridis', vmin=vmin, vmax=vmax
+            )
+            cbar_dns = fig.colorbar(pcm_dns, ax=axes[0, col])
+            cbar_dns.set_label(f"{title} (DNS)")
+            axes[0, col].set_title(f"{title} (DNS)")
+            axes[0, col].set_ylabel("Time/$\epsilon$")
+            axes[0, col].set_xlabel("x")
+
+            # --- Row 2: Asymptotic ---
+            pcm_asymp = axes[1, col].pcolormesh(
+                X_mesh, T_mesh, asymp_grid,
+                shading='auto', cmap='viridis', vmin=vmin, vmax=vmax
+            )
+            cbar_asymp = fig.colorbar(pcm_asymp, ax=axes[1, col])
+            cbar_asymp.set_label(f"{title} (Asymptotic)")
+            axes[1, col].set_title(f"{title} (Asymptotic)")
+            axes[1, col].set_ylabel("Time/$\epsilon$")
+            axes[1, col].set_xlabel("x")
+
+        fig.suptitle(
+            f"Trial {trial_no:02d} — ε = {eps:.2e}",
+            fontsize=16, fontweight='bold'
         )
-        cbar_dns = fig.colorbar(pcm_dns, ax=axes[0, col])
-        cbar_dns.set_label(f"{title} (DNS)")
-        axes[0, col].set_title(f"{title} (DNS)")
-        axes[0, col].set_ylabel("Time")
-        axes[0, col].set_xlabel("x")
 
-        # --- Row 2: Asymptotic ---
-        pcm_asymp = axes[1, col].pcolormesh(
-            X_mesh, T_mesh, asymp_grid,
-            shading='auto', cmap='viridis', vmin=vmin, vmax=vmax
-        )
-        cbar_asymp = fig.colorbar(pcm_asymp, ax=axes[1, col])
-        cbar_asymp.set_label(f"{title} (Asymptotic)")
-        axes[1, col].set_title(f"{title} (Asymptotic)")
-        axes[1, col].set_ylabel("Time")
-        axes[1, col].set_xlabel("x")
+        # Create output directory if not exists
+        os.makedirs("figures_dx4", exist_ok=True)
 
-    fig.suptitle(
-        f"Trial {trial_no:02d} — ε = {eps:.2e}",
-        fontsize=16, fontweight='bold'
-    )
+        # Save figure
+        out_path = os.path.join("figures_dx4", f"trial_{trial_no:02d}.png")
+        plt.savefig(out_path, dpi=300)
+        plt.close(fig)
 
-    # Create output directory if not exists
-    os.makedirs("figures", exist_ok=True)
-
-    # Save figure
-    out_path = os.path.join("figures", f"trial_{trial_no:02d}.png")
-    plt.savefig(out_path, dpi=300)
-    plt.close(fig)
-
-    print(f"[SAVED] {out_path}")
-        
+        print(f"[SAVED] {out_path}")
             
+                
 
-      
-    
+        
+        
 
 
 

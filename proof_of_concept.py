@@ -14,7 +14,7 @@ from perturbsolution import asymptoticPNPsolve
 if __name__ == "__main__":
 
     # Allow smaller time steps
-    if_smaller_dt = True
+    if_smaller_dt = False
 
     # Data setup
     data_base_dir = "./"
@@ -79,7 +79,7 @@ if __name__ == "__main__":
                     X_vec,
                     dt,
                     tol=1e-8,
-                    max_iter=100,
+                    max_iter=1000,
                     ifInterpol=True
                 )
 
@@ -194,7 +194,7 @@ if __name__ == "__main__":
     cbar = fig.colorbar(cf, ax=axes, pad=0.01)
     cbar.set_ticks(ticks)
     cbar.set_ticklabels(tick_labels)
-    plt.savefig(f"perturbation_test_2.png", dpi=300)
+    plt.savefig(f"perturbation_test_2dx.png", dpi=300)
     plt.show()
     plt.close()
 

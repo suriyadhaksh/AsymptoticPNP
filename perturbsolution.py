@@ -131,6 +131,10 @@ def outer_solve_anderson(Co0, Co1, phio0, phio1, Co_prev_vec, phio_prev_vec, eps
     solver = AndersonAcceleration(fixed_point_fn, maxiter=max_iter, tol=tol)
     result = solver.run(sol_vec_flat)
 
+    print("Converged:", result.state.error < solver.tol)
+    print("Iterations:", result.state.iter_num)
+    print("Final error:", result.state.error)
+
     sol_vec_flat_final = result.params
     Co_prev = sol_vec_flat_final[0::2]
     phio_prev = sol_vec_flat_final[1::2]
@@ -147,7 +151,7 @@ def asymptoticPNPsolve(C1_prev_vec, C2_prev_vec, phi_prev_vec, epsilon, phi_left
     Co_prev_vec, phio_prev_vec = proj.projection(C1_prev_vec, C2_prev_vec, phi_prev_vec, epsilon, X_vec, phi_left, phi_right)
 
     if ifInterpol:
-        N_sample = 100
+        N_sample = 200
         X_sample_vec = jnp.linspace(0.0, 1.0, N_sample)
 
         Co_prev_vec = jnp.interp(X_sample_vec, X_vec, Co_prev_vec)
