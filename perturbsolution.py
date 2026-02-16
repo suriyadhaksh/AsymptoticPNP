@@ -151,7 +151,7 @@ def asymptoticPNPsolve(C1_prev_vec, C2_prev_vec, phi_prev_vec, epsilon, phi_left
     Co_prev_vec, phio_prev_vec = proj.projection(C1_prev_vec, C2_prev_vec, phi_prev_vec, epsilon, X_vec, phi_left, phi_right)
 
     if ifInterpol:
-        N_sample = 200
+        N_sample = 30
         X_sample_vec = jnp.linspace(0.0, 1.0, N_sample)
 
         Co_prev_vec = jnp.interp(X_sample_vec, X_vec, Co_prev_vec)
@@ -178,3 +178,5 @@ def asymptoticPNPsolve(C1_prev_vec, C2_prev_vec, phi_prev_vec, epsilon, phi_left
     C1_vec, C2_vec, phi_vec = proj.inverse_projection(Co_vec, phio_vec, epsilon, X_vec, phi_left, phi_right)
 
     return C1_vec, C2_vec, phi_vec
+
+
