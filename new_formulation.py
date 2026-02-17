@@ -11,6 +11,7 @@ import jax
 import jax.numpy as jnp
 
 from perturbsolution import asymptoticPNPsolve
+from projection import projection, inverse_projection
 
 
 def extract_grids(trial_folder_path):
@@ -107,7 +108,7 @@ if __name__ == "__main__":
 
     # ============================================
     # USER SETTINGS
-    # ============================================
+    # ============================================n
     selected_trial = 8  # Change this to select which trial to analyze
     if_smaller_dt = True  # Allow smaller time steps
     base_input_dir = "/home/suriya/Mani_Grp/DATA_set/time_clustering/sinN8_func"  # Base directory containing trial folders
@@ -151,7 +152,7 @@ if __name__ == "__main__":
     
     # Compute dt for each time step (non-uniform)
     dt_vec = np.zeros(total_steps)
-    dt_vec[0] = t_vec[0]  # First dt is just t_vec[0] (assuming starting from 0)
+    dt_vec[0] = 0.0  # First dt is just t_vec[0] (assuming starting from 0)
     dt_vec[1:] = np.diff(t_vec)
     
     print(f"[INFO] dt range: [{np.min(dt_vec):.5e}, {np.max(dt_vec):.5e}]")
@@ -163,12 +164,29 @@ if __name__ == "__main__":
     C2_asymp_all = np.full((total_steps, n_spatial), np.nan)
     phi_asymp_all = np.full((total_steps, n_spatial), np.nan)
 
+    # Grids to store outer  solutions
+    Co_outer_grid = np.zeros_like(C1_asymp_all)
+    phio_outer_grid = np.zeros_like(phi_asymp_all)
+
     C1_l2_error = np.full(total_steps, np.nan)
     C2_l2_error = np.full(total_steps, np.nan)
     phi_l2_error = np.full(total_steps, np.nan)
 
+    # Initial conditions vectors and scalars
+    Co_prev_vec    = None
+    phio_prev_vec  = None
+    Co0_prev       = None
+    Co1_prev       = None
+    phio0_prev     = None
+    phio1_prev     = None
+
+    mathscrC0_prev = None
+    mathscrC1_prev = None
+    varrho0_prev    = None
+    varrho1_prev    = None
 
     startPerturbation = False
+    enableUniformGrid = True
     
     # Loop over all time steps
     for time_index in range(89): #range(total_steps):
@@ -183,23 +201,46 @@ if __name__ == "__main__":
             print(" ---------------------------------------------------------------------------------- ")
             print(f"   Critical time crossed: t = {t_n:.3e} > ε = {epsilon:g}")
 
+            # Get the initial condition for the outer problem at time t_n
+            C1_prev_vec  = C1_grid[time_index, :]
+            C2_prev_vec  = C2_grid[time_index, :]
+            phi_prev_vec = phi_grid[time_index, :]
+
+
+            Co_prev_vec, phio_prev_vec = projection(
+                C1_prev_vec, C2_prev_vec, phi_prev_vec,
+                epsilon, x_vec, phi_left, phi_right
+            )
+
+            Co0_prev = Co_prev_vec[0]
+            Co1_prev = Co_prev_vec[-1]
+            phio0_prev = phio_prev_vec[0]
+            phio1_prev = phio_prev_vec[-1]
+
+            print(f"   Initial conditions set")
+            print(f"   Initial outer BCs: Co0 = {Co0_prev:.3e}, Co1 = {Co1_prev:.3e}, phio0 = {phio0_prev:.3e}, phio1 = {phio1_prev:.3e}")
+            # print(f"   Initial perturbation BCs: 𝓒₀ = {mathscrC0_prev:.3e}, 𝓒₁ = {mathscrC1_prev:.3e}, ρ₀ = {varrho0_prev:.3e}, ρ₁ = {varrho1_prev:.3e}")
+            print(" --------------------------------------------------------------------------------- \n")
+
+
         if startPerturbation:
             # Get DNS solution at this time step
             C1_dns = C1_grid[time_index, :]
             C2_dns = C2_grid[time_index, :]
             phi_dns = phi_grid[time_index, :]
             
-            # For the first time step, use DNS as initial condition
-            if time_index == 0:
-                C1_in, C2_in, phi_in = C1_dns, C2_dns, phi_dns
-            else:
-                # Use previous asymptotic solution as input
-                C1_in = C1_asymp_all[time_index - 1, :]
-                C2_in = C2_asymp_all[time_index - 1, :]
-                phi_in = phi_asymp_all[time_index - 1, :]
+            #  Use previous asymptotic solution as input
+            C1_in = C1_asymp_all[time_index - 1, :]
+            C2_in = C2_asymp_all[time_index - 1, :]
+            phi_in = phi_asymp_all[time_index - 1, :]
             
             # Get dt for this time step
             dt = dt_vec[time_index]
+
+            if enableUniformGrid:
+                x_uniform = np.linspace(x_vec[0], x_vec[-1], 30)
+                Co_prev_vec_uniform = np.interp(x_uniform, x_vec, Co_prev_vec)
+                phio_prev_vec_uniform = np.interp(x_uniform, x_vec, phio_prev_vec)
             
             if not if_smaller_dt:
                 # Asymptotic PNP solve
