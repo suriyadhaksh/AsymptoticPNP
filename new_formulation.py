@@ -10,8 +10,9 @@ import matplotlib.pyplot as plt
 import jax
 import jax.numpy as jnp
 
-from perturbsolution import asymptoticPNPsolve
+from perturbsolution import asymptoticPNPsolve, solve_outer_problem
 from projection import projection, inverse_projection
+import boundaryTransform as boundaryT
 
 
 def extract_grids(trial_folder_path):
@@ -106,6 +107,9 @@ def extract_grids(trial_folder_path):
 # main function
 if __name__ == "__main__":
 
+    print("JAX devices:", jax.devices())
+    print("JAX default backend:", jax.default_backend())
+
     # ============================================
     # USER SETTINGS
     # ============================================n
@@ -189,7 +193,7 @@ if __name__ == "__main__":
     enableUniformGrid = True
     
     # Loop over all time steps
-    for time_index in range(89): #range(total_steps):
+    for time_index in range(total_steps): #range(total_steps):
         t_n = t_vec[time_index]
         if startPerturbation:
             print("\n" )
@@ -217,9 +221,14 @@ if __name__ == "__main__":
             phio0_prev = phio_prev_vec[0]
             phio1_prev = phio_prev_vec[-1]
 
+            # Get initial conditions for the accumulations
+            mathscrC0_prev, mathscrC1_prev, varrho0_prev, varrho1_prev = boundaryT.inverseTransform(
+                    epsilon, Co0_prev, Co1_prev, phio0_prev, phio1_prev, phi_left, phi_right
+            )
+
             print(f"   Initial conditions set")
             print(f"   Initial outer BCs: Co0 = {Co0_prev:.3e}, Co1 = {Co1_prev:.3e}, phio0 = {phio0_prev:.3e}, phio1 = {phio1_prev:.3e}")
-            # print(f"   Initial perturbation BCs: 𝓒₀ = {mathscrC0_prev:.3e}, 𝓒₁ = {mathscrC1_prev:.3e}, ρ₀ = {varrho0_prev:.3e}, ρ₁ = {varrho1_prev:.3e}")
+            print(f"   Initial perturbation BCs: 𝓒₀ = {mathscrC0_prev:.3e}, 𝓒₁ = {mathscrC1_prev:.3e}, ρ₀ = {varrho0_prev:.3e}, ρ₁ = {varrho1_prev:.3e}")
             print(" --------------------------------------------------------------------------------- \n")
 
 
@@ -241,57 +250,48 @@ if __name__ == "__main__":
                 x_uniform = np.linspace(x_vec[0], x_vec[-1], 30)
                 Co_prev_vec_uniform = np.interp(x_uniform, x_vec, Co_prev_vec)
                 phio_prev_vec_uniform = np.interp(x_uniform, x_vec, phio_prev_vec)
-            
-            if not if_smaller_dt:
-                # Asymptotic PNP solve
-                C1_asymp, C2_asymp, phi_asymp = asymptoticPNPsolve(
-                    C1_in, C2_in, phi_in,
-                    epsilon,
-                    phi_left, phi_right,
-                    x_vec,
-                    dt,
-                    tol=1e-8,
-                    max_iter=1000,
-                    ifInterpol=True
-                )
-            else:
-                dt_temp = dt / 4.0
-                t_current = 0.0
-                C1_asymp, C2_asymp, phi_asymp = C1_in, C2_in, phi_in
-                while t_current < dt:
-                    C1_asymp, C2_asymp, phi_asymp = asymptoticPNPsolve(
-                        C1_asymp, C2_asymp, phi_asymp,
-                        epsilon,
-                        phi_left, phi_right,
-                        x_vec,
-                        dt_temp,
-                        tol=1e-8,
-                        max_iter=100,
-                        ifInterpol=True
-                    )
-                    t_current += dt_temp
-                    print(f"[INTERNAL LOOP] Advanced to t = {t_current:.5e} / {dt:.5e}")
 
-                    # Store asymptotic solution
-                    C1_asymp_all[time_index, :] = C1_asymp
-                    C2_asymp_all[time_index, :] = C2_asymp
-                    phi_asymp_all[time_index, :] = phi_asymp
-                    
-                    # Compute L2 errors
-                    C1_norm = np.linalg.norm(C1_dns, ord=2)
-                    C2_norm = np.linalg.norm(C2_dns, ord=2)
-                    
-                    if C1_norm > 1e-12:
-                        C1_l2_error[time_index] = np.linalg.norm(C1_asymp - C1_dns, ord=2) / C1_norm
-                    else:
-                        C1_l2_error[time_index] = np.linalg.norm(C1_asymp - C1_dns, ord=2)
-                    
-                    if C2_norm > 1e-12:
-                        C2_l2_error[time_index] = np.linalg.norm(C2_asymp - C2_dns, ord=2) / C2_norm
-                    else:
-                        C2_l2_error[time_index] = np.linalg.norm(C2_asymp - C2_dns, ord=2)
-                    
-                    phi_l2_error[time_index] = np.linalg.norm(phi_asymp - phi_dns, ord=2) / np.sqrt(phi_asymp.shape[0])
+                Co_vec_uniform, phio_vec_uniform = solve_outer_problem(
+                    t_current=0.0,
+                    t_final=dt,
+                    x_uniform=x_uniform,
+                    epsilon=epsilon,
+                    Co_prev_vec=Co_prev_vec_uniform,
+                    phio_prev_vec=phio_prev_vec_uniform,
+                    dt=dt,
+                    phi_left=phi_left,
+                    phi_right=phi_right
+                )
+
+                # Interpolate back to original grid
+                Co_vec = np.interp(x_vec, x_uniform, Co_vec_uniform)
+                phio_vec = np.interp(x_vec, x_uniform, phio_vec_uniform)
+    
+            C1_asymp, C2_asymp, phi_asymp = inverse_projection(
+                Co_vec, phio_vec,
+                epsilon, x_vec, phi_left, phi_right
+            )
+
+            # Store asymptotic solution
+            C1_asymp_all[time_index, :] = C1_asymp
+            C2_asymp_all[time_index, :] = C2_asymp
+            phi_asymp_all[time_index, :] = phi_asymp
+            
+            # Compute L2 errors
+            C1_norm = np.linalg.norm(C1_dns, ord=2)
+            C2_norm = np.linalg.norm(C2_dns, ord=2)
+            
+            if C1_norm > 1e-12:
+                C1_l2_error[time_index] = np.linalg.norm(C1_asymp - C1_dns, ord=2) / C1_norm
+            else:
+                C1_l2_error[time_index] = np.linalg.norm(C1_asymp - C1_dns, ord=2)
+            
+            if C2_norm > 1e-12:
+                C2_l2_error[time_index] = np.linalg.norm(C2_asymp - C2_dns, ord=2) / C2_norm
+            else:
+                C2_l2_error[time_index] = np.linalg.norm(C2_asymp - C2_dns, ord=2)
+            
+            phi_l2_error[time_index] = np.linalg.norm(phi_asymp - phi_dns, ord=2) / np.sqrt(phi_asymp.shape[0])
     
     print("[INFO] All time steps processed. Generating plots...")
     
