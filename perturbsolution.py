@@ -262,7 +262,7 @@ def asymptoticPNPsolve(C1_prev_vec, C2_prev_vec, phi_prev_vec, epsilon, phi_left
 
     return C1_vec, C2_vec, phi_vec
 
- 
+@partial(jax.jit, static_argnames=("tol", "max_iter")) 
 def advance_outer_solution_implicit(x_vec, mathscrC0_prev, mathscrC1_prev, varrho0_prev, varrho1_prev, Co_prev_vec, phio_prev_vec, epsilon, dt, phi_left, phi_right, dx, tol=1e-8, max_iter=100):
     N = Co_prev_vec.shape[0]
 
@@ -308,9 +308,13 @@ def advance_outer_solution_implicit(x_vec, mathscrC0_prev, mathscrC1_prev, varrh
     solver = AndersonAcceleration(fixed_point_fn, maxiter=max_iter, tol=tol)
     result = solver.run(sol_vec_flat)
 
-    print("Converged:", result.state.error < solver.tol)
-    print("Iterations:", result.state.iter_num)
-    print("Final error:", result.state.error)
+    # print("Converged:", result.state.error < solver.tol)
+    # print("Iterations:", result.state.iter_num)
+    # print("Final error:", result.state.error)
+
+    jax.debug.print("     Converged: {}", result.state.error < solver.tol)
+    jax.debug.print("     Iterations: {}", result.state.iter_num)
+    jax.debug.print("     Final error: {}", result.state.error)
 
     sol_vec_flat_final = result.params
     Co_prev = sol_vec_flat_final[0::2]
@@ -352,7 +356,7 @@ def solve_outer_problem(
         mathscrC0, mathscrC1, varrho0, varrho1 = forwardTransform(epsilon, Co0, Co1, phio0, phio1, phi_left=-1.0, phi_right=1.0)
 
         print(f"    Time {t_current_ + dt:.3e}:")
-        print(f"    𝓒₀: {mathscrC0:.3e}, 𝓒₁: {mathscrC1:.3e}, ρ₀: {varrho0:.3e}, ρ₁: {varrho1:.3e}")
-        print(f"    Co0: {Co0:.3e}, Co1: {Co1:.3e}, phio0: {phio0:.3e}, phio1: {phio1:.3e}\n")
+        #print(f"    𝓒₀: {mathscrC0:.3e}, 𝓒₁: {mathscrC1:.3e}, ρ₀: {varrho0:.3e}, ρ₁: {varrho1:.3e}")
+        #print(f"    Co0: {Co0:.3e}, Co1: {Co1:.3e}, phio0: {phio0:.3e}, phio1: {phio1:.3e}\n")
 
-    return Co_vec_next, phio_vec_next
+    return Co_vec_next, phio_vec_next, mathscrC0, mathscrC1, varrho0, varrho1

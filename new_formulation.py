@@ -6,6 +6,8 @@ from pathlib import Path
 import re
 import matplotlib
 import matplotlib.pyplot as plt
+import psutil, os
+proc = psutil.Process(os.getpid())
 
 import jax
 import jax.numpy as jnp
@@ -14,6 +16,9 @@ from perturbsolution import asymptoticPNPsolve, solve_outer_problem
 from projection import projection, inverse_projection
 import boundaryTransform as boundaryT
 
+
+def rss_gb():
+    return proc.memory_info().rss / (1024**3)
 
 def extract_grids(trial_folder_path):
     """
@@ -114,11 +119,21 @@ if __name__ == "__main__":
     # USER SETTINGS
     # ============================================n
     selected_trial = 8  # Change this to select which trial to analyze
-    if_smaller_dt = True  # Allow smaller time steps
+    
     base_input_dir = "/home/suriya/Mani_Grp/DATA_set/time_clustering/sinN8_func"  # Base directory containing trial folders
     base_output_dir = "./"  # Output directory for figures
     phi_left = -1.0
     phi_right = 1.0
+    
+    phi_left = jnp.asarray(phi_left, dtype=jnp.float32)
+    phi_right = jnp.asarray(phi_right, dtype=jnp.float32)
+
+    n_substeps = 1 # Number of substeps for the outer solver (can be increased for better accuracy at the cost of speed)
+    enableUniformGrid = True
+    N_uniform = 100  # Number of points in the uniform grid for the outer solver (if enabled)
+    diff_const = 1
+    hx = 1/(N_uniform-1)
+    dt_min = 1.0 #hx**2 / diff_const
     # ============================================
 
     # ---------------------------------------------------------
@@ -141,6 +156,7 @@ if __name__ == "__main__":
     
     try:
         epsilon, x_vec, t_vec, C1_grid, C2_grid, phi_grid = extract_grids(trial_folder_path)
+        epsilon = jnp.asarray(epsilon, dtype=jnp.float32)
         print("✓ Grid info extracted successfully")
     except Exception as e:
         print(f"❌ Error processing {trial_name}: {e}\n")
@@ -153,6 +169,11 @@ if __name__ == "__main__":
     print(f"[INFO] Number of time steps: {total_steps}")
     print(f"[INFO] Number of spatial points: {n_spatial}")
     print(f"[INFO] Time range: [{t_vec[0]:.5e}, {t_vec[-1]:.5e}]")
+
+    bytes_per_grid = total_steps * n_spatial * 8  # float64
+    print(f"[MEM-est] One (t,x) float64 grid: {bytes_per_grid/1024**3:.2f} GB")
+    print(f"[MEM-est] 8 grids like you have:  {8*bytes_per_grid/1024**3:.2f} GB")
+    print(f"[MEM] RSS right now: {rss_gb():.2f} GB")
     
     # Compute dt for each time step (non-uniform)
     dt_vec = np.zeros(total_steps)
@@ -172,6 +193,10 @@ if __name__ == "__main__":
     Co_outer_grid = np.zeros_like(C1_asymp_all)
     phio_outer_grid = np.zeros_like(phi_asymp_all)
 
+    # Grids to store ref outer solutions
+    Co_ref_outer_grid = np.zeros_like(C1_asymp_all)
+    phio_ref_outer_grid = np.zeros_like(phi_asymp_all)
+
     C1_l2_error = np.full(total_steps, np.nan)
     C2_l2_error = np.full(total_steps, np.nan)
     phi_l2_error = np.full(total_steps, np.nan)
@@ -190,13 +215,13 @@ if __name__ == "__main__":
     varrho1_prev    = None
 
     startPerturbation = False
-    enableUniformGrid = True
+    
     
     # Loop over all time steps
     for time_index in range(total_steps): #range(total_steps):
         t_n = t_vec[time_index]
-        if startPerturbation:
-            print("\n" )
+        #if startPerturbation:
+            #print("\n" )
 
         print(f"[INFO] Processing time step {time_index+1}/{total_steps} (t = {t_vec[time_index]:.5e})...")
         
@@ -244,21 +269,23 @@ if __name__ == "__main__":
             phi_in = phi_asymp_all[time_index - 1, :]
             
             # Get dt for this time step
-            dt = dt_vec[time_index]
+            dt = jnp.asarray(dt_vec[time_index], dtype=jnp.float32)
+
+            dt_ = jnp.asarray(min(dt/n_substeps, dt_min), dtype=jnp.float32)
 
             if enableUniformGrid:
-                x_uniform = np.linspace(x_vec[0], x_vec[-1], 30)
+                x_uniform = np.linspace(x_vec[0], x_vec[-1], N_uniform)
                 Co_prev_vec_uniform = np.interp(x_uniform, x_vec, Co_prev_vec)
                 phio_prev_vec_uniform = np.interp(x_uniform, x_vec, phio_prev_vec)
 
-                Co_vec_uniform, phio_vec_uniform = solve_outer_problem(
+                Co_vec_uniform, phio_vec_uniform, mathscrC0, mathscrC1, varrho0, varrho1 = solve_outer_problem(
                     t_current=0.0,
                     t_final=dt,
                     x_uniform=x_uniform,
                     epsilon=epsilon,
                     Co_prev_vec=Co_prev_vec_uniform,
                     phio_prev_vec=phio_prev_vec_uniform,
-                    dt=dt,
+                    dt=dt_,
                     phi_left=phi_left,
                     phi_right=phi_right
                 )
@@ -266,6 +293,25 @@ if __name__ == "__main__":
                 # Interpolate back to original grid
                 Co_vec = np.interp(x_vec, x_uniform, Co_vec_uniform)
                 phio_vec = np.interp(x_vec, x_uniform, phio_vec_uniform)
+
+                Co0, Co1 = Co_vec[0], Co_vec[-1]
+                phio0, phio1 = phio_vec[0], phio_vec[-1]
+
+            Co_prev_vec   = Co_vec
+            phio_prev_vec = phio_vec
+            Co0_prev, Co1_prev = Co_vec[0], Co_vec[-1]
+            phio0_prev, phio1_prev = phio_vec[0], phio_vec[-1]
+
+            Co_outer_grid[time_index, :]   = Co_vec
+            phio_outer_grid[time_index, :] = phio_vec
+
+            Co_ref_vec, phio_ref_vec = projection(
+                C1_grid[time_index, :], C2_grid[time_index, :], phi_grid[time_index, :],
+                epsilon, x_vec, phi_left, phi_right
+            )
+
+            Co_ref_outer_grid[time_index, :]   = Co_ref_vec
+            phio_ref_outer_grid[time_index, :] = phio_ref_vec
     
             C1_asymp, C2_asymp, phi_asymp = inverse_projection(
                 Co_vec, phio_vec,
@@ -292,6 +338,9 @@ if __name__ == "__main__":
                 C2_l2_error[time_index] = np.linalg.norm(C2_asymp - C2_dns, ord=2)
             
             phi_l2_error[time_index] = np.linalg.norm(phi_asymp - phi_dns, ord=2) / np.sqrt(phi_asymp.shape[0])
+
+        if time_index % 1 == 0:
+            print(f"[MEM] step {time_index}: RSS {rss_gb():.2f} GB")
     
     print("[INFO] All time steps processed. Generating plots...")
     

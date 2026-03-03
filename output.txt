@@ -1,0 +1,7591 @@
+JAX devices: [CpuDevice(id=0)]
+JAX default backend: cpu
+
+==============================
+🔹 Processing trial_08
+==============================
+Opening /home/suriya/Mani_Grp/DATA_set/time_clustering/sinN8_func/trial_08
+✓ Grid info extracted successfully
+[INFO] Trial 8: epsilon = 0.0003124999930150807
+[INFO] Number of time steps: 999
+[INFO] Number of spatial points: 1001
+[INFO] Time range: [0.00000e+00, 9.92235e-01]
+[MEM-est] One (t,x) float64 grid: 0.01 GB
+[MEM-est] 8 grids like you have:  0.06 GB
+[MEM] RSS right now: 0.24 GB
+[INFO] dt range: [0.00000e+00, 7.70500e-03]
+[INFO] Processing time step 1/999 (t = 0.00000e+00)...
+[MEM] step 0: RSS 0.28 GB
+[INFO] Processing time step 2/999 (t = 3.20653e-06)...
+[MEM] step 1: RSS 0.28 GB
+[INFO] Processing time step 3/999 (t = 6.43813e-06)...
+[MEM] step 2: RSS 0.28 GB
+[INFO] Processing time step 4/999 (t = 9.69502e-06)...
+[MEM] step 3: RSS 0.28 GB
+[INFO] Processing time step 5/999 (t = 1.29774e-05)...
+[MEM] step 4: RSS 0.28 GB
+[INFO] Processing time step 6/999 (t = 1.62854e-05)...
+[MEM] step 5: RSS 0.28 GB
+[INFO] Processing time step 7/999 (t = 1.96194e-05)...
+[MEM] step 6: RSS 0.28 GB
+[INFO] Processing time step 8/999 (t = 2.29794e-05)...
+[MEM] step 7: RSS 0.28 GB
+[INFO] Processing time step 9/999 (t = 2.63656e-05)...
+[MEM] step 8: RSS 0.28 GB
+[INFO] Processing time step 10/999 (t = 2.97784e-05)...
+[MEM] step 9: RSS 0.28 GB
+[INFO] Processing time step 11/999 (t = 3.32179e-05)...
+[MEM] step 10: RSS 0.28 GB
+[INFO] Processing time step 12/999 (t = 3.66843e-05)...
+[MEM] step 11: RSS 0.28 GB
+[INFO] Processing time step 13/999 (t = 4.01778e-05)...
+[MEM] step 12: RSS 0.28 GB
+[INFO] Processing time step 14/999 (t = 4.36986e-05)...
+[MEM] step 13: RSS 0.28 GB
+[INFO] Processing time step 15/999 (t = 4.72469e-05)...
+[MEM] step 14: RSS 0.28 GB
+[INFO] Processing time step 16/999 (t = 5.08231e-05)...
+[MEM] step 15: RSS 0.28 GB
+[INFO] Processing time step 17/999 (t = 5.44272e-05)...
+[MEM] step 16: RSS 0.28 GB
+[INFO] Processing time step 18/999 (t = 5.80595e-05)...
+[MEM] step 17: RSS 0.28 GB
+[INFO] Processing time step 19/999 (t = 6.17202e-05)...
+[MEM] step 18: RSS 0.28 GB
+[INFO] Processing time step 20/999 (t = 6.54095e-05)...
+[MEM] step 19: RSS 0.28 GB
+[INFO] Processing time step 21/999 (t = 6.91277e-05)...
+[MEM] step 20: RSS 0.28 GB
+[INFO] Processing time step 22/999 (t = 7.28750e-05)...
+[MEM] step 21: RSS 0.28 GB
+[INFO] Processing time step 23/999 (t = 7.66516e-05)...
+[MEM] step 22: RSS 0.28 GB
+[INFO] Processing time step 24/999 (t = 8.04577e-05)...
+[MEM] step 23: RSS 0.28 GB
+[INFO] Processing time step 25/999 (t = 8.42936e-05)...
+[MEM] step 24: RSS 0.28 GB
+[INFO] Processing time step 26/999 (t = 8.81596e-05)...
+[MEM] step 25: RSS 0.28 GB
+[INFO] Processing time step 27/999 (t = 9.20557e-05)...
+[MEM] step 26: RSS 0.28 GB
+[INFO] Processing time step 28/999 (t = 9.59824e-05)...
+[MEM] step 27: RSS 0.28 GB
+[INFO] Processing time step 29/999 (t = 9.99397e-05)...
+[MEM] step 28: RSS 0.28 GB
+[INFO] Processing time step 30/999 (t = 1.03928e-04)...
+[MEM] step 29: RSS 0.28 GB
+[INFO] Processing time step 31/999 (t = 1.07948e-04)...
+[MEM] step 30: RSS 0.28 GB
+[INFO] Processing time step 32/999 (t = 1.11999e-04)...
+[MEM] step 31: RSS 0.28 GB
+[INFO] Processing time step 33/999 (t = 1.16081e-04)...
+[MEM] step 32: RSS 0.28 GB
+[INFO] Processing time step 34/999 (t = 1.20196e-04)...
+[MEM] step 33: RSS 0.28 GB
+[INFO] Processing time step 35/999 (t = 1.24343e-04)...
+[MEM] step 34: RSS 0.28 GB
+[INFO] Processing time step 36/999 (t = 1.28522e-04)...
+[MEM] step 35: RSS 0.28 GB
+[INFO] Processing time step 37/999 (t = 1.32734e-04)...
+[MEM] step 36: RSS 0.28 GB
+[INFO] Processing time step 38/999 (t = 1.36979e-04)...
+[MEM] step 37: RSS 0.28 GB
+[INFO] Processing time step 39/999 (t = 1.41257e-04)...
+[MEM] step 38: RSS 0.28 GB
+[INFO] Processing time step 40/999 (t = 1.45568e-04)...
+[MEM] step 39: RSS 0.28 GB
+[INFO] Processing time step 41/999 (t = 1.49913e-04)...
+[MEM] step 40: RSS 0.28 GB
+[INFO] Processing time step 42/999 (t = 1.54293e-04)...
+[MEM] step 41: RSS 0.28 GB
+[INFO] Processing time step 43/999 (t = 1.58706e-04)...
+[MEM] step 42: RSS 0.28 GB
+[INFO] Processing time step 44/999 (t = 1.63154e-04)...
+[MEM] step 43: RSS 0.28 GB
+[INFO] Processing time step 45/999 (t = 1.67637e-04)...
+[MEM] step 44: RSS 0.28 GB
+[INFO] Processing time step 46/999 (t = 1.72155e-04)...
+[MEM] step 45: RSS 0.28 GB
+[INFO] Processing time step 47/999 (t = 1.76708e-04)...
+[MEM] step 46: RSS 0.28 GB
+[INFO] Processing time step 48/999 (t = 1.81297e-04)...
+[MEM] step 47: RSS 0.28 GB
+[INFO] Processing time step 49/999 (t = 1.85922e-04)...
+[MEM] step 48: RSS 0.28 GB
+[INFO] Processing time step 50/999 (t = 1.90583e-04)...
+[MEM] step 49: RSS 0.28 GB
+[INFO] Processing time step 51/999 (t = 1.95280e-04)...
+[MEM] step 50: RSS 0.28 GB
+[INFO] Processing time step 52/999 (t = 2.00014e-04)...
+[MEM] step 51: RSS 0.28 GB
+[INFO] Processing time step 53/999 (t = 2.04785e-04)...
+[MEM] step 52: RSS 0.28 GB
+[INFO] Processing time step 54/999 (t = 2.09594e-04)...
+[MEM] step 53: RSS 0.28 GB
+[INFO] Processing time step 55/999 (t = 2.14440e-04)...
+[MEM] step 54: RSS 0.28 GB
+[INFO] Processing time step 56/999 (t = 2.19324e-04)...
+[MEM] step 55: RSS 0.28 GB
+[INFO] Processing time step 57/999 (t = 2.24246e-04)...
+[MEM] step 56: RSS 0.28 GB
+[INFO] Processing time step 58/999 (t = 2.29207e-04)...
+[MEM] step 57: RSS 0.28 GB
+[INFO] Processing time step 59/999 (t = 2.34206e-04)...
+[MEM] step 58: RSS 0.28 GB
+[INFO] Processing time step 60/999 (t = 2.39245e-04)...
+[MEM] step 59: RSS 0.28 GB
+[INFO] Processing time step 61/999 (t = 2.44323e-04)...
+[MEM] step 60: RSS 0.28 GB
+[INFO] Processing time step 62/999 (t = 2.49441e-04)...
+[MEM] step 61: RSS 0.28 GB
+[INFO] Processing time step 63/999 (t = 2.54599e-04)...
+[MEM] step 62: RSS 0.28 GB
+[INFO] Processing time step 64/999 (t = 2.59797e-04)...
+[MEM] step 63: RSS 0.28 GB
+[INFO] Processing time step 65/999 (t = 2.65036e-04)...
+[MEM] step 64: RSS 0.28 GB
+[INFO] Processing time step 66/999 (t = 2.70315e-04)...
+[MEM] step 65: RSS 0.28 GB
+[INFO] Processing time step 67/999 (t = 2.75637e-04)...
+[MEM] step 66: RSS 0.28 GB
+[INFO] Processing time step 68/999 (t = 2.80999e-04)...
+[MEM] step 67: RSS 0.28 GB
+[INFO] Processing time step 69/999 (t = 2.86404e-04)...
+[MEM] step 68: RSS 0.28 GB
+[INFO] Processing time step 70/999 (t = 2.91851e-04)...
+[MEM] step 69: RSS 0.28 GB
+[INFO] Processing time step 71/999 (t = 2.97341e-04)...
+[MEM] step 70: RSS 0.28 GB
+[INFO] Processing time step 72/999 (t = 3.02873e-04)...
+[MEM] step 71: RSS 0.28 GB
+[INFO] Processing time step 73/999 (t = 3.08449e-04)...
+[MEM] step 72: RSS 0.28 GB
+[INFO] Processing time step 74/999 (t = 3.14068e-04)...
+ ---------------------------------------------------------------------------------- 
+   Critical time crossed: t = 3.141e-04 > ε = 0.0003125
+   Initial conditions set
+   Initial outer BCs: Co0 = 3.094e+00, Co1 = 8.947e-01, phio0 = -4.160e-01, phio1 = -5.276e-02
+   Initial perturbation BCs: 𝓒₀ = 6.674e-05, 𝓒₁ = 1.185e-04, ρ₀ = 9.675e-06, ρ₁ = -3.049e-05
+ --------------------------------------------------------------------------------- 
+
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 73: RSS 0.34 GB
+[INFO] Processing time step 75/999 (t = 3.19732e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 74: RSS 0.34 GB
+[INFO] Processing time step 76/999 (t = 3.25439e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 75: RSS 0.34 GB
+[INFO] Processing time step 77/999 (t = 3.31192e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 76: RSS 0.34 GB
+[INFO] Processing time step 78/999 (t = 3.36989e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 77: RSS 0.34 GB
+[INFO] Processing time step 79/999 (t = 3.42832e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 78: RSS 0.34 GB
+[INFO] Processing time step 80/999 (t = 3.48720e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 79: RSS 0.34 GB
+[INFO] Processing time step 81/999 (t = 3.54654e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 80: RSS 0.34 GB
+[INFO] Processing time step 82/999 (t = 3.60635e-04)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 81: RSS 0.34 GB
+[INFO] Processing time step 83/999 (t = 3.66663e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 82: RSS 0.34 GB
+[INFO] Processing time step 84/999 (t = 3.72738e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 83: RSS 0.34 GB
+[INFO] Processing time step 85/999 (t = 3.78860e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 84: RSS 0.34 GB
+[INFO] Processing time step 86/999 (t = 3.85030e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 85: RSS 0.34 GB
+[INFO] Processing time step 87/999 (t = 3.91249e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 86: RSS 0.34 GB
+[INFO] Processing time step 88/999 (t = 3.97516e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 87: RSS 0.34 GB
+[INFO] Processing time step 89/999 (t = 4.03832e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 88: RSS 0.34 GB
+[INFO] Processing time step 90/999 (t = 4.10198e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 89: RSS 0.34 GB
+[INFO] Processing time step 91/999 (t = 4.16613e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 90: RSS 0.34 GB
+[INFO] Processing time step 92/999 (t = 4.23078e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 91: RSS 0.34 GB
+[INFO] Processing time step 93/999 (t = 4.29595e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 92: RSS 0.34 GB
+[INFO] Processing time step 94/999 (t = 4.36162e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 93: RSS 0.34 GB
+[INFO] Processing time step 95/999 (t = 4.42780e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 94: RSS 0.34 GB
+[INFO] Processing time step 96/999 (t = 4.49450e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 95: RSS 0.34 GB
+[INFO] Processing time step 97/999 (t = 4.56173e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 96: RSS 0.34 GB
+[INFO] Processing time step 98/999 (t = 4.62948e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 97: RSS 0.34 GB
+[INFO] Processing time step 99/999 (t = 4.69776e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 98: RSS 0.34 GB
+[INFO] Processing time step 100/999 (t = 4.76657e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 99: RSS 0.34 GB
+[INFO] Processing time step 101/999 (t = 4.83592e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 100: RSS 0.34 GB
+[INFO] Processing time step 102/999 (t = 4.90582e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 101: RSS 0.34 GB
+[INFO] Processing time step 103/999 (t = 4.97626e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 102: RSS 0.34 GB
+[INFO] Processing time step 104/999 (t = 5.04725e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 103: RSS 0.34 GB
+[INFO] Processing time step 105/999 (t = 5.11880e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 104: RSS 0.34 GB
+[INFO] Processing time step 106/999 (t = 5.19091e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 105: RSS 0.34 GB
+[INFO] Processing time step 107/999 (t = 5.26358e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 106: RSS 0.34 GB
+[INFO] Processing time step 108/999 (t = 5.33682e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 107: RSS 0.34 GB
+[INFO] Processing time step 109/999 (t = 5.41064e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 108: RSS 0.34 GB
+[INFO] Processing time step 110/999 (t = 5.48503e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 109: RSS 0.34 GB
+[INFO] Processing time step 111/999 (t = 5.56000e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 110: RSS 0.34 GB
+[INFO] Processing time step 112/999 (t = 5.63556e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 111: RSS 0.34 GB
+[INFO] Processing time step 113/999 (t = 5.71171e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 112: RSS 0.34 GB
+[INFO] Processing time step 114/999 (t = 5.78845e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 113: RSS 0.34 GB
+[INFO] Processing time step 115/999 (t = 5.86580e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 114: RSS 0.34 GB
+[INFO] Processing time step 116/999 (t = 5.94375e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 115: RSS 0.34 GB
+[INFO] Processing time step 117/999 (t = 6.02231e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 116: RSS 0.34 GB
+[INFO] Processing time step 118/999 (t = 6.10149e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 117: RSS 0.34 GB
+[INFO] Processing time step 119/999 (t = 6.18128e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 118: RSS 0.34 GB
+[INFO] Processing time step 120/999 (t = 6.26170e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 119: RSS 0.34 GB
+[INFO] Processing time step 121/999 (t = 6.34275e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 120: RSS 0.34 GB
+[INFO] Processing time step 122/999 (t = 6.42443e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 121: RSS 0.34 GB
+[INFO] Processing time step 123/999 (t = 6.50676e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 122: RSS 0.34 GB
+[INFO] Processing time step 124/999 (t = 6.58972e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 123: RSS 0.34 GB
+[INFO] Processing time step 125/999 (t = 6.67333e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 124: RSS 0.34 GB
+[INFO] Processing time step 126/999 (t = 6.75760e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 125: RSS 0.34 GB
+[INFO] Processing time step 127/999 (t = 6.84253e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 126: RSS 0.34 GB
+[INFO] Processing time step 128/999 (t = 6.92812e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 127: RSS 0.34 GB
+[INFO] Processing time step 129/999 (t = 7.01438e-04)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 128: RSS 0.34 GB
+[INFO] Processing time step 130/999 (t = 7.10132e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 129: RSS 0.34 GB
+[INFO] Processing time step 131/999 (t = 7.18894e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 130: RSS 0.34 GB
+[INFO] Processing time step 132/999 (t = 7.27724e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 131: RSS 0.34 GB
+[INFO] Processing time step 133/999 (t = 7.36623e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 132: RSS 0.34 GB
+[INFO] Processing time step 134/999 (t = 7.45592e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 133: RSS 0.34 GB
+[INFO] Processing time step 135/999 (t = 7.54631e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 134: RSS 0.34 GB
+[INFO] Processing time step 136/999 (t = 7.63741e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 135: RSS 0.34 GB
+[INFO] Processing time step 137/999 (t = 7.72922e-04)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 136: RSS 0.34 GB
+[INFO] Processing time step 138/999 (t = 7.82175e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 137: RSS 0.34 GB
+[INFO] Processing time step 139/999 (t = 7.91500e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 138: RSS 0.34 GB
+[INFO] Processing time step 140/999 (t = 8.00898e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 139: RSS 0.34 GB
+[INFO] Processing time step 141/999 (t = 8.10370e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 140: RSS 0.34 GB
+[INFO] Processing time step 142/999 (t = 8.19915e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 141: RSS 0.34 GB
+[INFO] Processing time step 143/999 (t = 8.29536e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 142: RSS 0.34 GB
+[INFO] Processing time step 144/999 (t = 8.39231e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 143: RSS 0.34 GB
+[INFO] Processing time step 145/999 (t = 8.49003e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 144: RSS 0.34 GB
+[INFO] Processing time step 146/999 (t = 8.58851e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 145: RSS 0.34 GB
+[INFO] Processing time step 147/999 (t = 8.68776e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 146: RSS 0.34 GB
+[INFO] Processing time step 148/999 (t = 8.78779e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 147: RSS 0.34 GB
+[INFO] Processing time step 149/999 (t = 8.88860e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 148: RSS 0.34 GB
+[INFO] Processing time step 150/999 (t = 8.99019e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 149: RSS 0.34 GB
+[INFO] Processing time step 151/999 (t = 9.09259e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 150: RSS 0.34 GB
+[INFO] Processing time step 152/999 (t = 9.19578e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 151: RSS 0.34 GB
+[INFO] Processing time step 153/999 (t = 9.29978e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 152: RSS 0.34 GB
+[INFO] Processing time step 154/999 (t = 9.40459e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 153: RSS 0.34 GB
+[INFO] Processing time step 155/999 (t = 9.51023e-04)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 154: RSS 0.34 GB
+[INFO] Processing time step 156/999 (t = 9.61669e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 155: RSS 0.34 GB
+[INFO] Processing time step 157/999 (t = 9.72398e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 156: RSS 0.34 GB
+[INFO] Processing time step 158/999 (t = 9.83211e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 157: RSS 0.34 GB
+[INFO] Processing time step 159/999 (t = 9.94109e-04)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 158: RSS 0.34 GB
+[INFO] Processing time step 160/999 (t = 1.00509e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 159: RSS 0.34 GB
+[INFO] Processing time step 161/999 (t = 1.01616e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 160: RSS 0.34 GB
+[INFO] Processing time step 162/999 (t = 1.02732e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 161: RSS 0.34 GB
+[INFO] Processing time step 163/999 (t = 1.03856e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 162: RSS 0.34 GB
+[INFO] Processing time step 164/999 (t = 1.04989e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 163: RSS 0.34 GB
+[INFO] Processing time step 165/999 (t = 1.06131e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 164: RSS 0.34 GB
+[INFO] Processing time step 166/999 (t = 1.07282e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 165: RSS 0.34 GB
+[INFO] Processing time step 167/999 (t = 1.08442e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 166: RSS 0.34 GB
+[INFO] Processing time step 168/999 (t = 1.09611e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 167: RSS 0.34 GB
+[INFO] Processing time step 169/999 (t = 1.10789e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 168: RSS 0.34 GB
+[INFO] Processing time step 170/999 (t = 1.11976e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 169: RSS 0.34 GB
+[INFO] Processing time step 171/999 (t = 1.13173e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 170: RSS 0.34 GB
+[INFO] Processing time step 172/999 (t = 1.14379e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 171: RSS 0.34 GB
+[INFO] Processing time step 173/999 (t = 1.15594e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 172: RSS 0.34 GB
+[INFO] Processing time step 174/999 (t = 1.16819e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 173: RSS 0.34 GB
+[INFO] Processing time step 175/999 (t = 1.18053e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 174: RSS 0.34 GB
+[INFO] Processing time step 176/999 (t = 1.19298e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 175: RSS 0.34 GB
+[INFO] Processing time step 177/999 (t = 1.20551e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 176: RSS 0.34 GB
+[INFO] Processing time step 178/999 (t = 1.21815e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 177: RSS 0.34 GB
+[INFO] Processing time step 179/999 (t = 1.23089e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 178: RSS 0.34 GB
+[INFO] Processing time step 180/999 (t = 1.24372e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 179: RSS 0.34 GB
+[INFO] Processing time step 181/999 (t = 1.25666e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 180: RSS 0.34 GB
+[INFO] Processing time step 182/999 (t = 1.26970e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 181: RSS 0.34 GB
+[INFO] Processing time step 183/999 (t = 1.28283e-03)...
+Converged: False
+Iterations: 100
+Final error: 1.67833320574573e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 182: RSS 0.34 GB
+[INFO] Processing time step 184/999 (t = 1.29608e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 183: RSS 0.34 GB
+[INFO] Processing time step 185/999 (t = 1.30942e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 184: RSS 0.34 GB
+[INFO] Processing time step 186/999 (t = 1.32287e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 185: RSS 0.34 GB
+[INFO] Processing time step 187/999 (t = 1.33643e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 186: RSS 0.34 GB
+[INFO] Processing time step 188/999 (t = 1.35009e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 187: RSS 0.34 GB
+[INFO] Processing time step 189/999 (t = 1.36385e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 188: RSS 0.34 GB
+[INFO] Processing time step 190/999 (t = 1.37773e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 189: RSS 0.34 GB
+[INFO] Processing time step 191/999 (t = 1.39171e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 190: RSS 0.34 GB
+[INFO] Processing time step 192/999 (t = 1.40581e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 191: RSS 0.34 GB
+[INFO] Processing time step 193/999 (t = 1.42001e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 192: RSS 0.34 GB
+[INFO] Processing time step 194/999 (t = 1.43433e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 193: RSS 0.34 GB
+[INFO] Processing time step 195/999 (t = 1.44875e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 194: RSS 0.34 GB
+[INFO] Processing time step 196/999 (t = 1.46329e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 195: RSS 0.34 GB
+[INFO] Processing time step 197/999 (t = 1.47795e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 196: RSS 0.34 GB
+[INFO] Processing time step 198/999 (t = 1.49271e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 197: RSS 0.34 GB
+[INFO] Processing time step 199/999 (t = 1.50760e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 198: RSS 0.34 GB
+[INFO] Processing time step 200/999 (t = 1.52260e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 199: RSS 0.34 GB
+[INFO] Processing time step 201/999 (t = 1.53771e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 200: RSS 0.34 GB
+[INFO] Processing time step 202/999 (t = 1.55295e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 201: RSS 0.34 GB
+[INFO] Processing time step 203/999 (t = 1.56830e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 202: RSS 0.34 GB
+[INFO] Processing time step 204/999 (t = 1.58378e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 203: RSS 0.34 GB
+[INFO] Processing time step 205/999 (t = 1.59938e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 204: RSS 0.34 GB
+[INFO] Processing time step 206/999 (t = 1.61509e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 205: RSS 0.34 GB
+[INFO] Processing time step 207/999 (t = 1.63093e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 206: RSS 0.34 GB
+[INFO] Processing time step 208/999 (t = 1.64690e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 207: RSS 0.34 GB
+[INFO] Processing time step 209/999 (t = 1.66299e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 208: RSS 0.34 GB
+[INFO] Processing time step 210/999 (t = 1.67920e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 209: RSS 0.34 GB
+[INFO] Processing time step 211/999 (t = 1.69555e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 210: RSS 0.34 GB
+[INFO] Processing time step 212/999 (t = 1.71202e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 211: RSS 0.34 GB
+[INFO] Processing time step 213/999 (t = 1.72862e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 212: RSS 0.34 GB
+[INFO] Processing time step 214/999 (t = 1.74534e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 213: RSS 0.34 GB
+[INFO] Processing time step 215/999 (t = 1.76220e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 214: RSS 0.34 GB
+[INFO] Processing time step 216/999 (t = 1.77920e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 215: RSS 0.34 GB
+[INFO] Processing time step 217/999 (t = 1.79632e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 216: RSS 0.34 GB
+[INFO] Processing time step 218/999 (t = 1.81358e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 217: RSS 0.34 GB
+[INFO] Processing time step 219/999 (t = 1.83097e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 218: RSS 0.34 GB
+[INFO] Processing time step 220/999 (t = 1.84850e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 219: RSS 0.34 GB
+[INFO] Processing time step 221/999 (t = 1.86617e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 220: RSS 0.34 GB
+[INFO] Processing time step 222/999 (t = 1.88397e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 221: RSS 0.34 GB
+[INFO] Processing time step 223/999 (t = 1.90192e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 222: RSS 0.34 GB
+[INFO] Processing time step 224/999 (t = 1.92000e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 223: RSS 0.34 GB
+[INFO] Processing time step 225/999 (t = 1.93823e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 224: RSS 0.34 GB
+[INFO] Processing time step 226/999 (t = 1.95660e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 225: RSS 0.34 GB
+[INFO] Processing time step 227/999 (t = 1.97511e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 226: RSS 0.34 GB
+[INFO] Processing time step 228/999 (t = 1.99377e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 227: RSS 0.34 GB
+[INFO] Processing time step 229/999 (t = 2.01257e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 228: RSS 0.34 GB
+[INFO] Processing time step 230/999 (t = 2.03152e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 229: RSS 0.34 GB
+[INFO] Processing time step 231/999 (t = 2.05062e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 230: RSS 0.34 GB
+[INFO] Processing time step 232/999 (t = 2.06987e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 231: RSS 0.34 GB
+[INFO] Processing time step 233/999 (t = 2.08926e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 232: RSS 0.34 GB
+[INFO] Processing time step 234/999 (t = 2.10881e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 233: RSS 0.34 GB
+[INFO] Processing time step 235/999 (t = 2.12852e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 234: RSS 0.34 GB
+[INFO] Processing time step 236/999 (t = 2.14837e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 235: RSS 0.34 GB
+[INFO] Processing time step 237/999 (t = 2.16839e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 236: RSS 0.34 GB
+[INFO] Processing time step 238/999 (t = 2.18856e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 237: RSS 0.34 GB
+[INFO] Processing time step 239/999 (t = 2.20888e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 238: RSS 0.34 GB
+[INFO] Processing time step 240/999 (t = 2.22937e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 239: RSS 0.34 GB
+[INFO] Processing time step 241/999 (t = 2.25001e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 240: RSS 0.34 GB
+[INFO] Processing time step 242/999 (t = 2.27082e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 241: RSS 0.34 GB
+[INFO] Processing time step 243/999 (t = 2.29179e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 242: RSS 0.34 GB
+[INFO] Processing time step 244/999 (t = 2.31293e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 243: RSS 0.34 GB
+[INFO] Processing time step 245/999 (t = 2.33423e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 244: RSS 0.34 GB
+[INFO] Processing time step 246/999 (t = 2.35569e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 245: RSS 0.34 GB
+[INFO] Processing time step 247/999 (t = 2.37733e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 246: RSS 0.34 GB
+[INFO] Processing time step 248/999 (t = 2.39913e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 247: RSS 0.34 GB
+[INFO] Processing time step 249/999 (t = 2.42110e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 248: RSS 0.34 GB
+[INFO] Processing time step 250/999 (t = 2.44325e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 249: RSS 0.34 GB
+[INFO] Processing time step 251/999 (t = 2.48806e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 250: RSS 0.34 GB
+[INFO] Processing time step 252/999 (t = 2.51073e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 251: RSS 0.34 GB
+[INFO] Processing time step 253/999 (t = 2.53358e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 252: RSS 0.34 GB
+[INFO] Processing time step 254/999 (t = 2.55661e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 253: RSS 0.34 GB
+[INFO] Processing time step 255/999 (t = 2.57981e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 254: RSS 0.34 GB
+[INFO] Processing time step 256/999 (t = 2.60320e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 255: RSS 0.34 GB
+[INFO] Processing time step 257/999 (t = 2.62677e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 256: RSS 0.34 GB
+[INFO] Processing time step 258/999 (t = 2.65052e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 257: RSS 0.34 GB
+[INFO] Processing time step 259/999 (t = 2.67447e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 258: RSS 0.34 GB
+[INFO] Processing time step 260/999 (t = 2.69859e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 259: RSS 0.34 GB
+[INFO] Processing time step 261/999 (t = 2.72291e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 260: RSS 0.34 GB
+[INFO] Processing time step 262/999 (t = 2.74742e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 261: RSS 0.34 GB
+[INFO] Processing time step 263/999 (t = 2.77212e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 262: RSS 0.34 GB
+[INFO] Processing time step 264/999 (t = 2.79701e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 263: RSS 0.34 GB
+[INFO] Processing time step 265/999 (t = 2.82209e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 264: RSS 0.34 GB
+[INFO] Processing time step 266/999 (t = 2.84738e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 265: RSS 0.34 GB
+[INFO] Processing time step 267/999 (t = 2.87286e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 266: RSS 0.34 GB
+[INFO] Processing time step 268/999 (t = 2.89854e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 267: RSS 0.34 GB
+[INFO] Processing time step 269/999 (t = 2.92442e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 268: RSS 0.34 GB
+[INFO] Processing time step 270/999 (t = 2.95050e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 269: RSS 0.34 GB
+[INFO] Processing time step 271/999 (t = 2.97679e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 270: RSS 0.34 GB
+[INFO] Processing time step 272/999 (t = 3.00328e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 271: RSS 0.34 GB
+[INFO] Processing time step 273/999 (t = 3.02998e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 272: RSS 0.34 GB
+[INFO] Processing time step 274/999 (t = 3.05689e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 273: RSS 0.34 GB
+[INFO] Processing time step 275/999 (t = 3.08401e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 274: RSS 0.34 GB
+[INFO] Processing time step 276/999 (t = 3.11134e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 275: RSS 0.34 GB
+[INFO] Processing time step 277/999 (t = 3.13889e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 276: RSS 0.34 GB
+[INFO] Processing time step 278/999 (t = 3.16665e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 277: RSS 0.34 GB
+[INFO] Processing time step 279/999 (t = 3.19463e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 278: RSS 0.34 GB
+[INFO] Processing time step 280/999 (t = 3.22282e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 279: RSS 0.34 GB
+[INFO] Processing time step 281/999 (t = 3.25124e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 280: RSS 0.34 GB
+[INFO] Processing time step 282/999 (t = 3.27988e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 281: RSS 0.34 GB
+[INFO] Processing time step 283/999 (t = 3.30874e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 282: RSS 0.34 GB
+[INFO] Processing time step 284/999 (t = 3.33783e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 283: RSS 0.34 GB
+[INFO] Processing time step 285/999 (t = 3.36715e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: False
+Iterations: 100
+Final error: 1.9399715256440686e-06
+[MEM] step 284: RSS 0.34 GB
+[INFO] Processing time step 286/999 (t = 3.39670e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 285: RSS 0.34 GB
+[INFO] Processing time step 287/999 (t = 3.42648e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 286: RSS 0.34 GB
+[INFO] Processing time step 288/999 (t = 3.45649e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 287: RSS 0.34 GB
+[INFO] Processing time step 289/999 (t = 3.48673e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 288: RSS 0.34 GB
+[INFO] Processing time step 290/999 (t = 3.51721e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 289: RSS 0.34 GB
+[INFO] Processing time step 291/999 (t = 3.54793e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 290: RSS 0.34 GB
+[INFO] Processing time step 292/999 (t = 3.57889e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 291: RSS 0.34 GB
+[INFO] Processing time step 293/999 (t = 3.61010e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 292: RSS 0.34 GB
+[INFO] Processing time step 294/999 (t = 3.64154e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 293: RSS 0.34 GB
+[INFO] Processing time step 295/999 (t = 3.67324e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 294: RSS 0.34 GB
+[INFO] Processing time step 296/999 (t = 3.70518e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 295: RSS 0.34 GB
+[INFO] Processing time step 297/999 (t = 3.73737e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 296: RSS 0.34 GB
+[INFO] Processing time step 298/999 (t = 3.76981e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 297: RSS 0.34 GB
+[INFO] Processing time step 299/999 (t = 3.80251e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 298: RSS 0.34 GB
+[INFO] Processing time step 300/999 (t = 3.83546e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 299: RSS 0.34 GB
+[INFO] Processing time step 301/999 (t = 3.86867e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 300: RSS 0.34 GB
+[INFO] Processing time step 302/999 (t = 3.90214e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 301: RSS 0.34 GB
+[INFO] Processing time step 303/999 (t = 3.93587e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 302: RSS 0.34 GB
+[INFO] Processing time step 304/999 (t = 3.96987e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 303: RSS 0.34 GB
+[INFO] Processing time step 305/999 (t = 4.00413e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 304: RSS 0.34 GB
+[INFO] Processing time step 306/999 (t = 4.03866e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 305: RSS 0.34 GB
+[INFO] Processing time step 307/999 (t = 4.07346e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 306: RSS 0.34 GB
+[INFO] Processing time step 308/999 (t = 4.10853e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 307: RSS 0.34 GB
+[INFO] Processing time step 309/999 (t = 4.14388e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 308: RSS 0.34 GB
+[INFO] Processing time step 310/999 (t = 4.17950e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 309: RSS 0.34 GB
+[INFO] Processing time step 311/999 (t = 4.21540e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 3.725290298461914e-09
+[MEM] step 310: RSS 0.34 GB
+[INFO] Processing time step 312/999 (t = 4.25158e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 311: RSS 0.34 GB
+[INFO] Processing time step 313/999 (t = 4.28805e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 312: RSS 0.34 GB
+[INFO] Processing time step 314/999 (t = 4.32480e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 313: RSS 0.34 GB
+[INFO] Processing time step 315/999 (t = 4.36183e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 3
+Final error: 0.0
+[MEM] step 314: RSS 0.34 GB
+[INFO] Processing time step 316/999 (t = 4.39916e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 315: RSS 0.34 GB
+[INFO] Processing time step 317/999 (t = 4.43678e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 316: RSS 0.34 GB
+[INFO] Processing time step 318/999 (t = 4.47470e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 317: RSS 0.34 GB
+[INFO] Processing time step 319/999 (t = 4.51291e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 318: RSS 0.34 GB
+[INFO] Processing time step 320/999 (t = 4.55142e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 319: RSS 0.34 GB
+[INFO] Processing time step 321/999 (t = 4.59023e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 320: RSS 0.34 GB
+[INFO] Processing time step 322/999 (t = 4.62934e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 321: RSS 0.34 GB
+[INFO] Processing time step 323/999 (t = 4.66876e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 322: RSS 0.34 GB
+[INFO] Processing time step 324/999 (t = 4.70849e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 323: RSS 0.34 GB
+[INFO] Processing time step 325/999 (t = 4.74853e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 324: RSS 0.34 GB
+[INFO] Processing time step 326/999 (t = 4.78888e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 325: RSS 0.34 GB
+[INFO] Processing time step 327/999 (t = 4.82955e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 326: RSS 0.34 GB
+[INFO] Processing time step 328/999 (t = 4.87054e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 327: RSS 0.34 GB
+[INFO] Processing time step 329/999 (t = 4.91184e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 328: RSS 0.34 GB
+[INFO] Processing time step 330/999 (t = 4.95347e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 329: RSS 0.34 GB
+[INFO] Processing time step 331/999 (t = 4.99543e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 330: RSS 0.34 GB
+[INFO] Processing time step 332/999 (t = 5.03771e-03)...
+Converged: True
+Iterations: 4
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 331: RSS 0.34 GB
+[INFO] Processing time step 333/999 (t = 5.08033e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 332: RSS 0.34 GB
+[INFO] Processing time step 334/999 (t = 5.12328e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 333: RSS 0.34 GB
+[INFO] Processing time step 335/999 (t = 5.16656e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 334: RSS 0.34 GB
+[INFO] Processing time step 336/999 (t = 5.21018e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 335: RSS 0.34 GB
+[INFO] Processing time step 337/999 (t = 5.25415e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 336: RSS 0.34 GB
+[INFO] Processing time step 338/999 (t = 5.29845e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 337: RSS 0.34 GB
+[INFO] Processing time step 339/999 (t = 5.34311e-03)...
+Converged: False
+Iterations: 100
+Final error: 2.490004817445879e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 338: RSS 0.34 GB
+[INFO] Processing time step 340/999 (t = 5.38811e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 339: RSS 0.34 GB
+[INFO] Processing time step 341/999 (t = 5.43347e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 340: RSS 0.34 GB
+[INFO] Processing time step 342/999 (t = 5.47918e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 341: RSS 0.34 GB
+[INFO] Processing time step 343/999 (t = 5.52525e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 342: RSS 0.34 GB
+[INFO] Processing time step 344/999 (t = 5.57168e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 343: RSS 0.34 GB
+[INFO] Processing time step 345/999 (t = 5.61847e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 344: RSS 0.34 GB
+[INFO] Processing time step 346/999 (t = 5.66563e-03)...
+Converged: False
+Iterations: 100
+Final error: 2.159707946702838e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 345: RSS 0.34 GB
+[INFO] Processing time step 347/999 (t = 5.71315e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 346: RSS 0.34 GB
+[INFO] Processing time step 348/999 (t = 5.76105e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 347: RSS 0.34 GB
+[INFO] Processing time step 349/999 (t = 5.80932e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 348: RSS 0.34 GB
+[INFO] Processing time step 350/999 (t = 5.85797e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 349: RSS 0.34 GB
+[INFO] Processing time step 351/999 (t = 5.90701e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 350: RSS 0.34 GB
+[INFO] Processing time step 352/999 (t = 5.95642e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 351: RSS 0.34 GB
+[INFO] Processing time step 353/999 (t = 6.00622e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 352: RSS 0.34 GB
+[INFO] Processing time step 354/999 (t = 6.05641e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 353: RSS 0.34 GB
+[INFO] Processing time step 355/999 (t = 6.10700e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 354: RSS 0.34 GB
+[INFO] Processing time step 356/999 (t = 6.15798e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 355: RSS 0.34 GB
+[INFO] Processing time step 357/999 (t = 6.20936e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 356: RSS 0.34 GB
+[INFO] Processing time step 358/999 (t = 6.26114e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 357: RSS 0.34 GB
+[INFO] Processing time step 359/999 (t = 6.31332e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 358: RSS 0.34 GB
+[INFO] Processing time step 360/999 (t = 6.36591e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 359: RSS 0.34 GB
+[INFO] Processing time step 361/999 (t = 6.41892e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 360: RSS 0.34 GB
+[INFO] Processing time step 362/999 (t = 6.47234e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 361: RSS 0.34 GB
+[INFO] Processing time step 363/999 (t = 6.52618e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 362: RSS 0.34 GB
+[INFO] Processing time step 364/999 (t = 6.58043e-03)...
+Converged: False
+Iterations: 100
+Final error: 2.0014240362797864e-06
+Converged: True
+Iterations: 4
+Final error: 0.0
+[MEM] step 363: RSS 0.34 GB
+[INFO] Processing time step 365/999 (t = 6.63512e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 364: RSS 0.34 GB
+[INFO] Processing time step 366/999 (t = 6.69023e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 365: RSS 0.34 GB
+[INFO] Processing time step 367/999 (t = 6.74577e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 366: RSS 0.34 GB
+[INFO] Processing time step 368/999 (t = 6.80175e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 367: RSS 0.34 GB
+[INFO] Processing time step 369/999 (t = 6.85816e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 368: RSS 0.34 GB
+[INFO] Processing time step 370/999 (t = 6.91502e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 369: RSS 0.34 GB
+[INFO] Processing time step 371/999 (t = 6.97232e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 370: RSS 0.34 GB
+[INFO] Processing time step 372/999 (t = 7.03006e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 371: RSS 0.34 GB
+[INFO] Processing time step 373/999 (t = 7.08826e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 372: RSS 0.34 GB
+[INFO] Processing time step 374/999 (t = 7.14692e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 373: RSS 0.34 GB
+[INFO] Processing time step 375/999 (t = 7.20603e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 374: RSS 0.34 GB
+[INFO] Processing time step 376/999 (t = 7.26561e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 375: RSS 0.34 GB
+[INFO] Processing time step 377/999 (t = 7.32565e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 376: RSS 0.34 GB
+[INFO] Processing time step 378/999 (t = 7.38617e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 377: RSS 0.34 GB
+[INFO] Processing time step 379/999 (t = 7.44715e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 378: RSS 0.34 GB
+[INFO] Processing time step 380/999 (t = 7.50862e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 379: RSS 0.34 GB
+[INFO] Processing time step 381/999 (t = 7.57056e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 380: RSS 0.34 GB
+[INFO] Processing time step 382/999 (t = 7.63299e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 381: RSS 0.34 GB
+[INFO] Processing time step 383/999 (t = 7.69590e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 382: RSS 0.34 GB
+[INFO] Processing time step 384/999 (t = 7.75931e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 383: RSS 0.34 GB
+[INFO] Processing time step 385/999 (t = 7.82322e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 384: RSS 0.34 GB
+[INFO] Processing time step 386/999 (t = 7.88762e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 385: RSS 0.34 GB
+[INFO] Processing time step 387/999 (t = 7.95253e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 386: RSS 0.34 GB
+[INFO] Processing time step 388/999 (t = 8.01795e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 387: RSS 0.34 GB
+[INFO] Processing time step 389/999 (t = 8.08388e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 388: RSS 0.34 GB
+[INFO] Processing time step 390/999 (t = 8.15032e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 389: RSS 0.34 GB
+[INFO] Processing time step 391/999 (t = 8.21728e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 390: RSS 0.34 GB
+[INFO] Processing time step 392/999 (t = 8.28477e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 391: RSS 0.34 GB
+[INFO] Processing time step 393/999 (t = 8.35279e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 392: RSS 0.34 GB
+[INFO] Processing time step 394/999 (t = 8.42133e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 393: RSS 0.34 GB
+[INFO] Processing time step 395/999 (t = 8.49042e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 394: RSS 0.34 GB
+[INFO] Processing time step 396/999 (t = 8.56004e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 395: RSS 0.34 GB
+[INFO] Processing time step 397/999 (t = 8.63021e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 396: RSS 0.34 GB
+[INFO] Processing time step 398/999 (t = 8.70093e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 397: RSS 0.34 GB
+[INFO] Processing time step 399/999 (t = 8.77220e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 398: RSS 0.34 GB
+[INFO] Processing time step 400/999 (t = 8.84403e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 399: RSS 0.34 GB
+[INFO] Processing time step 401/999 (t = 8.91642e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 400: RSS 0.34 GB
+[INFO] Processing time step 402/999 (t = 8.98937e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 401: RSS 0.34 GB
+[INFO] Processing time step 403/999 (t = 9.06290e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 402: RSS 0.34 GB
+[INFO] Processing time step 404/999 (t = 9.13700e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 403: RSS 0.34 GB
+[INFO] Processing time step 405/999 (t = 9.21168e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 404: RSS 0.34 GB
+[INFO] Processing time step 406/999 (t = 9.28695e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 405: RSS 0.34 GB
+[INFO] Processing time step 407/999 (t = 9.36281e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 406: RSS 0.34 GB
+[INFO] Processing time step 408/999 (t = 9.43925e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 407: RSS 0.34 GB
+[INFO] Processing time step 409/999 (t = 9.51630e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 408: RSS 0.34 GB
+[INFO] Processing time step 410/999 (t = 9.59395e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 409: RSS 0.34 GB
+[INFO] Processing time step 411/999 (t = 9.67221e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 410: RSS 0.34 GB
+[INFO] Processing time step 412/999 (t = 9.75108e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 411: RSS 0.34 GB
+[INFO] Processing time step 413/999 (t = 9.83056e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 412: RSS 0.34 GB
+[INFO] Processing time step 414/999 (t = 9.91067e-03)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 413: RSS 0.34 GB
+[INFO] Processing time step 415/999 (t = 9.99140e-03)...
+Converged: False
+Iterations: 100
+Final error: 5.635955403704429e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 414: RSS 0.34 GB
+[INFO] Processing time step 416/999 (t = 1.00728e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 415: RSS 0.34 GB
+[INFO] Processing time step 417/999 (t = 1.01548e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 416: RSS 0.34 GB
+[INFO] Processing time step 418/999 (t = 1.02374e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: False
+Iterations: 100
+Final error: 2.83533745459863e-06
+[MEM] step 417: RSS 0.34 GB
+[INFO] Processing time step 419/999 (t = 1.03207e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 418: RSS 0.34 GB
+[INFO] Processing time step 420/999 (t = 1.04046e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 419: RSS 0.34 GB
+[INFO] Processing time step 421/999 (t = 1.04892e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 420: RSS 0.34 GB
+[INFO] Processing time step 422/999 (t = 1.05745e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 421: RSS 0.34 GB
+[INFO] Processing time step 423/999 (t = 1.06604e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.3444995374811697e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 422: RSS 0.34 GB
+[INFO] Processing time step 424/999 (t = 1.07470e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 423: RSS 0.34 GB
+[INFO] Processing time step 425/999 (t = 1.08343e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 424: RSS 0.34 GB
+[INFO] Processing time step 426/999 (t = 1.09223e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 425: RSS 0.34 GB
+[INFO] Processing time step 427/999 (t = 1.10109e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 426: RSS 0.34 GB
+[INFO] Processing time step 428/999 (t = 1.11003e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 427: RSS 0.34 GB
+[INFO] Processing time step 429/999 (t = 1.11903e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 428: RSS 0.34 GB
+[INFO] Processing time step 430/999 (t = 1.12810e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 429: RSS 0.34 GB
+[INFO] Processing time step 431/999 (t = 1.13725e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 430: RSS 0.34 GB
+[INFO] Processing time step 432/999 (t = 1.14647e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 431: RSS 0.34 GB
+[INFO] Processing time step 433/999 (t = 1.15576e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 432: RSS 0.34 GB
+[INFO] Processing time step 434/999 (t = 1.16512e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 433: RSS 0.34 GB
+[INFO] Processing time step 435/999 (t = 1.17455e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 434: RSS 0.34 GB
+[INFO] Processing time step 436/999 (t = 1.18406e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 435: RSS 0.34 GB
+[INFO] Processing time step 437/999 (t = 1.19364e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 436: RSS 0.34 GB
+[INFO] Processing time step 438/999 (t = 1.20330e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 437: RSS 0.34 GB
+[INFO] Processing time step 439/999 (t = 1.21304e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 438: RSS 0.34 GB
+[INFO] Processing time step 440/999 (t = 1.22285e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 439: RSS 0.34 GB
+[INFO] Processing time step 441/999 (t = 1.23273e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 440: RSS 0.34 GB
+[INFO] Processing time step 442/999 (t = 1.24270e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 441: RSS 0.34 GB
+[INFO] Processing time step 443/999 (t = 1.25274e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 442: RSS 0.34 GB
+[INFO] Processing time step 444/999 (t = 1.26286e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 443: RSS 0.34 GB
+[INFO] Processing time step 445/999 (t = 1.27306e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 444: RSS 0.34 GB
+[INFO] Processing time step 446/999 (t = 1.28334e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 445: RSS 0.34 GB
+[INFO] Processing time step 447/999 (t = 1.29370e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 446: RSS 0.34 GB
+[INFO] Processing time step 448/999 (t = 1.30414e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 447: RSS 0.34 GB
+[INFO] Processing time step 449/999 (t = 1.31466e-02)...
+Converged: False
+Iterations: 100
+Final error: 6.783982826163992e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 448: RSS 0.34 GB
+[INFO] Processing time step 450/999 (t = 1.32526e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 449: RSS 0.34 GB
+[INFO] Processing time step 451/999 (t = 1.33595e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 450: RSS 0.34 GB
+[INFO] Processing time step 452/999 (t = 1.34672e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 451: RSS 0.34 GB
+[INFO] Processing time step 453/999 (t = 1.35758e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 452: RSS 0.34 GB
+[INFO] Processing time step 454/999 (t = 1.36852e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 453: RSS 0.34 GB
+[INFO] Processing time step 455/999 (t = 1.37955e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 454: RSS 0.34 GB
+[INFO] Processing time step 456/999 (t = 1.39066e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 455: RSS 0.34 GB
+[INFO] Processing time step 457/999 (t = 1.40186e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 456: RSS 0.34 GB
+[INFO] Processing time step 458/999 (t = 1.41314e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 457: RSS 0.34 GB
+[INFO] Processing time step 459/999 (t = 1.42452e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 458: RSS 0.34 GB
+[INFO] Processing time step 460/999 (t = 1.43598e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 459: RSS 0.34 GB
+[INFO] Processing time step 461/999 (t = 1.44754e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 460: RSS 0.34 GB
+[INFO] Processing time step 462/999 (t = 1.45918e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 461: RSS 0.34 GB
+[INFO] Processing time step 463/999 (t = 1.47092e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 462: RSS 0.34 GB
+[INFO] Processing time step 464/999 (t = 1.48274e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 463: RSS 0.34 GB
+[INFO] Processing time step 465/999 (t = 1.49466e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 464: RSS 0.34 GB
+[INFO] Processing time step 466/999 (t = 1.50668e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.7203622014203575e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 465: RSS 0.34 GB
+[INFO] Processing time step 467/999 (t = 1.51878e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 466: RSS 0.34 GB
+[INFO] Processing time step 468/999 (t = 1.53099e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 467: RSS 0.34 GB
+[INFO] Processing time step 469/999 (t = 1.54328e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 468: RSS 0.34 GB
+[INFO] Processing time step 470/999 (t = 1.55568e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 469: RSS 0.34 GB
+[INFO] Processing time step 471/999 (t = 1.56817e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 470: RSS 0.34 GB
+[INFO] Processing time step 472/999 (t = 1.58075e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 471: RSS 0.34 GB
+[INFO] Processing time step 473/999 (t = 1.59344e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 472: RSS 0.34 GB
+[INFO] Processing time step 474/999 (t = 1.60623e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 473: RSS 0.34 GB
+[INFO] Processing time step 475/999 (t = 1.61911e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 474: RSS 0.34 GB
+[INFO] Processing time step 476/999 (t = 1.63210e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 475: RSS 0.34 GB
+[INFO] Processing time step 477/999 (t = 1.64519e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 476: RSS 0.34 GB
+[INFO] Processing time step 478/999 (t = 1.65838e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 477: RSS 0.34 GB
+[INFO] Processing time step 479/999 (t = 1.67167e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 478: RSS 0.34 GB
+[INFO] Processing time step 480/999 (t = 1.68507e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 479: RSS 0.34 GB
+[INFO] Processing time step 481/999 (t = 1.69857e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 480: RSS 0.34 GB
+[INFO] Processing time step 482/999 (t = 1.71218e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 481: RSS 0.34 GB
+[INFO] Processing time step 483/999 (t = 1.72589e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 482: RSS 0.34 GB
+[INFO] Processing time step 484/999 (t = 1.73971e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 483: RSS 0.34 GB
+[INFO] Processing time step 485/999 (t = 1.75364e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.1933279842633056e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 484: RSS 0.34 GB
+[INFO] Processing time step 486/999 (t = 1.76768e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 485: RSS 0.34 GB
+[INFO] Processing time step 487/999 (t = 1.78183e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 486: RSS 0.34 GB
+[INFO] Processing time step 488/999 (t = 1.79609e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 487: RSS 0.34 GB
+[INFO] Processing time step 489/999 (t = 1.81046e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 488: RSS 0.34 GB
+[INFO] Processing time step 490/999 (t = 1.82494e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.7540871744567994e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 489: RSS 0.34 GB
+[INFO] Processing time step 491/999 (t = 1.83954e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 490: RSS 0.34 GB
+[INFO] Processing time step 492/999 (t = 1.85425e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 491: RSS 0.34 GB
+[INFO] Processing time step 493/999 (t = 1.86908e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.605472779279808e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 492: RSS 0.34 GB
+[INFO] Processing time step 494/999 (t = 1.88402e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 493: RSS 0.34 GB
+[INFO] Processing time step 495/999 (t = 1.89908e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 494: RSS 0.34 GB
+[INFO] Processing time step 496/999 (t = 1.91425e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 495: RSS 0.34 GB
+[INFO] Processing time step 497/999 (t = 1.92955e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 496: RSS 0.34 GB
+[INFO] Processing time step 498/999 (t = 1.94496e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 497: RSS 0.34 GB
+[INFO] Processing time step 499/999 (t = 1.96050e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 498: RSS 0.34 GB
+[INFO] Processing time step 500/999 (t = 1.97616e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.09875781062874e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 499: RSS 0.34 GB
+[INFO] Processing time step 501/999 (t = 1.99194e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 500: RSS 0.34 GB
+[INFO] Processing time step 502/999 (t = 2.00784e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 501: RSS 0.34 GB
+[INFO] Processing time step 503/999 (t = 2.02387e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: False
+Iterations: 100
+Final error: 1.7674725540928193e-06
+[MEM] step 502: RSS 0.34 GB
+[INFO] Processing time step 504/999 (t = 2.04002e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 503: RSS 0.34 GB
+[INFO] Processing time step 505/999 (t = 2.05630e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.0406566818564897e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 504: RSS 0.34 GB
+[INFO] Processing time step 506/999 (t = 2.07270e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 505: RSS 0.34 GB
+[INFO] Processing time step 507/999 (t = 2.08924e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 506: RSS 0.34 GB
+[INFO] Processing time step 508/999 (t = 2.10590e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.2162346340337535e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 507: RSS 0.34 GB
+[INFO] Processing time step 509/999 (t = 2.12270e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 508: RSS 0.34 GB
+[INFO] Processing time step 510/999 (t = 2.13962e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 509: RSS 0.34 GB
+[INFO] Processing time step 511/999 (t = 2.15668e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 510: RSS 0.34 GB
+[INFO] Processing time step 512/999 (t = 2.17387e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 511: RSS 0.34 GB
+[INFO] Processing time step 513/999 (t = 2.19120e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 512: RSS 0.34 GB
+[INFO] Processing time step 514/999 (t = 2.20866e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 513: RSS 0.34 GB
+[INFO] Processing time step 515/999 (t = 2.22626e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 514: RSS 0.34 GB
+[INFO] Processing time step 516/999 (t = 2.24399e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.3966126718732994e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 515: RSS 0.34 GB
+[INFO] Processing time step 517/999 (t = 2.26187e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.38992856288678e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 516: RSS 0.34 GB
+[INFO] Processing time step 518/999 (t = 2.27988e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 517: RSS 0.34 GB
+[INFO] Processing time step 519/999 (t = 2.29804e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 518: RSS 0.34 GB
+[INFO] Processing time step 520/999 (t = 2.31634e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 519: RSS 0.34 GB
+[INFO] Processing time step 521/999 (t = 2.33478e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.4174570424074773e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 520: RSS 0.34 GB
+[INFO] Processing time step 522/999 (t = 2.35336e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.3121791602752637e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 521: RSS 0.34 GB
+[INFO] Processing time step 523/999 (t = 2.37209e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 522: RSS 0.34 GB
+[INFO] Processing time step 524/999 (t = 2.39097e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 523: RSS 0.34 GB
+[INFO] Processing time step 525/999 (t = 2.40999e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 524: RSS 0.34 GB
+[INFO] Processing time step 526/999 (t = 2.42917e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 525: RSS 0.34 GB
+[INFO] Processing time step 527/999 (t = 2.44849e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 526: RSS 0.34 GB
+[INFO] Processing time step 528/999 (t = 2.46796e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.168803909327835e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 527: RSS 0.34 GB
+[INFO] Processing time step 529/999 (t = 2.48759e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 528: RSS 0.34 GB
+[INFO] Processing time step 530/999 (t = 2.50737e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 529: RSS 0.34 GB
+[INFO] Processing time step 531/999 (t = 2.52730e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 530: RSS 0.34 GB
+[INFO] Processing time step 532/999 (t = 2.54740e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 531: RSS 0.34 GB
+[INFO] Processing time step 533/999 (t = 2.56764e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 532: RSS 0.34 GB
+[INFO] Processing time step 534/999 (t = 2.58805e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 533: RSS 0.34 GB
+[INFO] Processing time step 535/999 (t = 2.60862e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 534: RSS 0.34 GB
+[INFO] Processing time step 536/999 (t = 2.62934e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 535: RSS 0.34 GB
+[INFO] Processing time step 537/999 (t = 2.65023e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 536: RSS 0.34 GB
+[INFO] Processing time step 538/999 (t = 2.67128e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 537: RSS 0.34 GB
+[INFO] Processing time step 539/999 (t = 2.69250e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 538: RSS 0.34 GB
+[INFO] Processing time step 540/999 (t = 2.71389e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 539: RSS 0.34 GB
+[INFO] Processing time step 541/999 (t = 2.73544e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.6953304111666512e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 540: RSS 0.34 GB
+[INFO] Processing time step 542/999 (t = 2.75715e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 541: RSS 0.34 GB
+[INFO] Processing time step 543/999 (t = 2.77904e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.0973812954471214e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 542: RSS 0.34 GB
+[INFO] Processing time step 544/999 (t = 2.80110e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 543: RSS 0.34 GB
+[INFO] Processing time step 545/999 (t = 2.82334e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 544: RSS 0.34 GB
+[INFO] Processing time step 546/999 (t = 2.84574e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.6462524803937413e-06
+Converged: False
+Iterations: 100
+Final error: 2.5510760224278783e-06
+[MEM] step 545: RSS 0.34 GB
+[INFO] Processing time step 547/999 (t = 2.86832e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 546: RSS 0.34 GB
+[INFO] Processing time step 548/999 (t = 2.89108e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 547: RSS 0.34 GB
+[INFO] Processing time step 549/999 (t = 2.91402e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.2774445369577734e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 548: RSS 0.34 GB
+[INFO] Processing time step 550/999 (t = 2.93714e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 549: RSS 0.34 GB
+[INFO] Processing time step 551/999 (t = 2.96043e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 550: RSS 0.34 GB
+[INFO] Processing time step 552/999 (t = 2.98391e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.8477352316258475e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 551: RSS 0.34 GB
+[INFO] Processing time step 553/999 (t = 3.00757e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 552: RSS 0.34 GB
+[INFO] Processing time step 554/999 (t = 3.03142e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 553: RSS 0.34 GB
+[INFO] Processing time step 555/999 (t = 3.05546e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 554: RSS 0.34 GB
+[INFO] Processing time step 556/999 (t = 3.07968e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.690124463493703e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 555: RSS 0.34 GB
+[INFO] Processing time step 557/999 (t = 3.10409e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 556: RSS 0.34 GB
+[INFO] Processing time step 558/999 (t = 3.12869e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.2270068054931471e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 557: RSS 0.34 GB
+[INFO] Processing time step 559/999 (t = 3.15349e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.3202704798895866e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 558: RSS 0.34 GB
+[INFO] Processing time step 560/999 (t = 3.17848e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 559: RSS 0.34 GB
+[INFO] Processing time step 561/999 (t = 3.20366e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.0065210719621973e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 560: RSS 0.34 GB
+[INFO] Processing time step 562/999 (t = 3.22905e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 561: RSS 0.34 GB
+[INFO] Processing time step 563/999 (t = 3.25463e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.3499795841198647e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 562: RSS 0.34 GB
+[INFO] Processing time step 564/999 (t = 3.28041e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.4247606233984698e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 563: RSS 0.34 GB
+[INFO] Processing time step 565/999 (t = 3.30639e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.2241864573734347e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 564: RSS 0.34 GB
+[INFO] Processing time step 566/999 (t = 3.33257e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.07153083870071e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 565: RSS 0.34 GB
+[INFO] Processing time step 567/999 (t = 3.35896e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.4984422023189836e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 566: RSS 0.34 GB
+[INFO] Processing time step 568/999 (t = 3.38556e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.5820031649127486e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 567: RSS 0.34 GB
+[INFO] Processing time step 569/999 (t = 3.41236e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 568: RSS 0.34 GB
+[INFO] Processing time step 570/999 (t = 3.43938e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.283128653994936e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 569: RSS 0.34 GB
+[INFO] Processing time step 571/999 (t = 3.46660e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 570: RSS 0.34 GB
+[INFO] Processing time step 572/999 (t = 3.49404e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: False
+Iterations: 100
+Final error: 1.377148691972252e-06
+[MEM] step 571: RSS 0.34 GB
+[INFO] Processing time step 573/999 (t = 3.52170e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.0508120996964863e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 572: RSS 0.34 GB
+[INFO] Processing time step 574/999 (t = 3.54957e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.727089617517777e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 573: RSS 0.34 GB
+[INFO] Processing time step 575/999 (t = 3.57765e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 574: RSS 0.34 GB
+[INFO] Processing time step 576/999 (t = 3.60596e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 575: RSS 0.34 GB
+[INFO] Processing time step 577/999 (t = 3.63449e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.672020516707562e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 576: RSS 0.34 GB
+[INFO] Processing time step 578/999 (t = 3.66324e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 577: RSS 0.34 GB
+[INFO] Processing time step 579/999 (t = 3.69222e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 578: RSS 0.34 GB
+[INFO] Processing time step 580/999 (t = 3.72142e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.4094501921135816e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 579: RSS 0.34 GB
+[INFO] Processing time step 581/999 (t = 3.75085e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.4336782189493533e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 580: RSS 0.34 GB
+[INFO] Processing time step 582/999 (t = 3.78052e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.8962392611429095e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 581: RSS 0.34 GB
+[INFO] Processing time step 583/999 (t = 3.81041e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 582: RSS 0.34 GB
+[INFO] Processing time step 584/999 (t = 3.84054e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.931729224859737e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 583: RSS 0.34 GB
+[INFO] Processing time step 585/999 (t = 3.87090e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 584: RSS 0.34 GB
+[INFO] Processing time step 586/999 (t = 3.90150e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.914718374493532e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 585: RSS 0.34 GB
+[INFO] Processing time step 587/999 (t = 3.93235e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.2715899983013514e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 586: RSS 0.34 GB
+[INFO] Processing time step 588/999 (t = 3.96343e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.539251909183804e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 587: RSS 0.34 GB
+[INFO] Processing time step 589/999 (t = 3.99475e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 588: RSS 0.34 GB
+[INFO] Processing time step 590/999 (t = 4.02632e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.051528321724618e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 589: RSS 0.34 GB
+[INFO] Processing time step 591/999 (t = 4.05814e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.584344883871381e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 590: RSS 0.34 GB
+[INFO] Processing time step 592/999 (t = 4.09021e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.7440321446192684e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 591: RSS 0.34 GB
+[INFO] Processing time step 593/999 (t = 4.12252e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.588175099546788e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 592: RSS 0.34 GB
+[INFO] Processing time step 594/999 (t = 4.15509e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.5080019011293189e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 593: RSS 0.34 GB
+[INFO] Processing time step 595/999 (t = 4.18792e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.411947091080947e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 594: RSS 0.34 GB
+[INFO] Processing time step 596/999 (t = 4.22100e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.9585091851913603e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 595: RSS 0.34 GB
+[INFO] Processing time step 597/999 (t = 4.25434e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.259252596559236e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 596: RSS 0.34 GB
+[INFO] Processing time step 598/999 (t = 4.28794e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.5292077932826942e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 597: RSS 0.34 GB
+[INFO] Processing time step 599/999 (t = 4.32180e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.431564553262433e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 598: RSS 0.34 GB
+[INFO] Processing time step 600/999 (t = 4.35593e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.5457306972166407e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 599: RSS 0.34 GB
+[INFO] Processing time step 601/999 (t = 4.39033e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.340488665846351e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 600: RSS 0.34 GB
+[INFO] Processing time step 602/999 (t = 4.42499e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.5747450561320875e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 601: RSS 0.34 GB
+[INFO] Processing time step 603/999 (t = 4.45993e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.5460662982368376e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 602: RSS 0.34 GB
+[INFO] Processing time step 604/999 (t = 4.49514e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.493762397331011e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 603: RSS 0.34 GB
+[INFO] Processing time step 605/999 (t = 4.53062e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 604: RSS 0.34 GB
+[INFO] Processing time step 606/999 (t = 4.56638e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.1071052742627217e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 605: RSS 0.34 GB
+[INFO] Processing time step 607/999 (t = 4.60242e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 606: RSS 0.34 GB
+[INFO] Processing time step 608/999 (t = 4.63875e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.9212243387300987e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 607: RSS 0.34 GB
+[INFO] Processing time step 609/999 (t = 4.67536e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.7606440678719082e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 608: RSS 0.34 GB
+[INFO] Processing time step 610/999 (t = 4.71225e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.7450839752418688e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 609: RSS 0.34 GB
+[INFO] Processing time step 611/999 (t = 4.74943e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.754496669396758e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 610: RSS 0.34 GB
+[INFO] Processing time step 612/999 (t = 4.78691e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.6475993308849866e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 611: RSS 0.34 GB
+[INFO] Processing time step 613/999 (t = 4.82467e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.0051735393499257e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 612: RSS 0.34 GB
+[INFO] Processing time step 614/999 (t = 4.86274e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.825655312539311e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 613: RSS 0.34 GB
+[INFO] Processing time step 615/999 (t = 4.90110e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.653009121582727e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 614: RSS 0.34 GB
+[INFO] Processing time step 616/999 (t = 4.93976e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.4999028482852736e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 615: RSS 0.34 GB
+[INFO] Processing time step 617/999 (t = 4.97872e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.702756425307598e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 616: RSS 0.34 GB
+[INFO] Processing time step 618/999 (t = 5.01799e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.908709913957864e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 617: RSS 0.34 GB
+[INFO] Processing time step 619/999 (t = 5.05756e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.178752988082124e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 618: RSS 0.34 GB
+[INFO] Processing time step 620/999 (t = 5.09745e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.957128688445664e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 619: RSS 0.34 GB
+[INFO] Processing time step 621/999 (t = 5.13764e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.955058218707563e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 620: RSS 0.34 GB
+[INFO] Processing time step 622/999 (t = 5.17815e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.4718998500029556e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 621: RSS 0.34 GB
+[INFO] Processing time step 623/999 (t = 5.21898e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.6390980590585968e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 622: RSS 0.34 GB
+[INFO] Processing time step 624/999 (t = 5.26013e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.4092262265185127e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 623: RSS 0.34 GB
+[INFO] Processing time step 625/999 (t = 5.30160e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.991205181184341e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 624: RSS 0.34 GB
+[INFO] Processing time step 626/999 (t = 5.34339e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.6082773299785913e-06
+Converged: False
+Iterations: 100
+Final error: 1.8256848761666333e-06
+[MEM] step 625: RSS 0.34 GB
+[INFO] Processing time step 627/999 (t = 5.38551e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 626: RSS 0.34 GB
+[INFO] Processing time step 628/999 (t = 5.42796e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.2775627737937612e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 627: RSS 0.34 GB
+[INFO] Processing time step 629/999 (t = 5.47074e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.7594458010280505e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 628: RSS 0.34 GB
+[INFO] Processing time step 630/999 (t = 5.51386e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.336289293860318e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 629: RSS 0.34 GB
+[INFO] Processing time step 631/999 (t = 5.55731e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.336398665647721e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 630: RSS 0.34 GB
+[INFO] Processing time step 632/999 (t = 5.60110e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.720572178484872e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 631: RSS 0.34 GB
+[INFO] Processing time step 633/999 (t = 5.64524e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.96858945855638e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 632: RSS 0.34 GB
+[INFO] Processing time step 634/999 (t = 5.68972e-02)...
+Converged: False
+Iterations: 100
+Final error: 6.5858748712344095e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 633: RSS 0.34 GB
+[INFO] Processing time step 635/999 (t = 5.73455e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.978567524929531e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 634: RSS 0.34 GB
+[INFO] Processing time step 636/999 (t = 5.77973e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.703318609244889e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 635: RSS 0.34 GB
+[INFO] Processing time step 637/999 (t = 5.82526e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.8805448007697123e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 636: RSS 0.34 GB
+[INFO] Processing time step 638/999 (t = 5.87115e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.3877394167138846e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 637: RSS 0.34 GB
+[INFO] Processing time step 639/999 (t = 5.91740e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.8510794461690239e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 638: RSS 0.34 GB
+[INFO] Processing time step 640/999 (t = 5.96401e-02)...
+Converged: False
+Iterations: 100
+Final error: 6.874945484014461e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 639: RSS 0.34 GB
+[INFO] Processing time step 641/999 (t = 6.01099e-02)...
+Converged: False
+Iterations: 100
+Final error: 9.447711818211246e-06
+Converged: True
+Iterations: 5
+Final error: 3.725290298461914e-09
+[MEM] step 640: RSS 0.34 GB
+[INFO] Processing time step 642/999 (t = 6.05833e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.412181169755058e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 641: RSS 0.34 GB
+[INFO] Processing time step 643/999 (t = 6.10604e-02)...
+Converged: True
+Iterations: 5
+Final error: 0.0
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 642: RSS 0.34 GB
+[INFO] Processing time step 644/999 (t = 6.15413e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.238196652295301e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 643: RSS 0.34 GB
+[INFO] Processing time step 645/999 (t = 6.20259e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.513444772172079e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 644: RSS 0.34 GB
+[INFO] Processing time step 646/999 (t = 6.25143e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.4958791325625498e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 645: RSS 0.34 GB
+[INFO] Processing time step 647/999 (t = 6.30066e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.7115199827676406e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 646: RSS 0.34 GB
+[INFO] Processing time step 648/999 (t = 6.35026e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.3182949487600126e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 647: RSS 0.34 GB
+[INFO] Processing time step 649/999 (t = 6.40026e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.0327919881092384e-05
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 648: RSS 0.34 GB
+[INFO] Processing time step 650/999 (t = 6.45065e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.80727157992078e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 649: RSS 0.34 GB
+[INFO] Processing time step 651/999 (t = 6.50143e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.552303719014162e-06
+Converged: False
+Iterations: 100
+Final error: 1.7027837202476803e-06
+[MEM] step 650: RSS 0.34 GB
+[INFO] Processing time step 652/999 (t = 6.55261e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.3084628562864964e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 651: RSS 0.34 GB
+[INFO] Processing time step 653/999 (t = 6.60419e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.753828423214145e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 652: RSS 0.34 GB
+[INFO] Processing time step 654/999 (t = 6.65617e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.294576233907719e-06
+Converged: False
+Iterations: 100
+Final error: 4.236500444676494e-06
+[MEM] step 653: RSS 0.34 GB
+[INFO] Processing time step 655/999 (t = 6.70856e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.4387481971643865e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 654: RSS 0.34 GB
+[INFO] Processing time step 656/999 (t = 6.76136e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.669096597353928e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 655: RSS 0.34 GB
+[INFO] Processing time step 657/999 (t = 6.81457e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.790609530871734e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 656: RSS 0.34 GB
+[INFO] Processing time step 658/999 (t = 6.86820e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.8029029383324087e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 657: RSS 0.34 GB
+[INFO] Processing time step 659/999 (t = 6.92225e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.9996239188913023e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 658: RSS 0.34 GB
+[INFO] Processing time step 660/999 (t = 6.97672e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.4090417102561332e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 659: RSS 0.34 GB
+[INFO] Processing time step 661/999 (t = 7.03162e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.056964371557115e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 660: RSS 0.34 GB
+[INFO] Processing time step 662/999 (t = 7.08694e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.741735215749941e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 661: RSS 0.34 GB
+[INFO] Processing time step 663/999 (t = 7.14270e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.103232418448897e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 662: RSS 0.34 GB
+[INFO] Processing time step 664/999 (t = 7.19890e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.057628418901004e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 663: RSS 0.34 GB
+[INFO] Processing time step 665/999 (t = 7.25553e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.4002780517330393e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 664: RSS 0.34 GB
+[INFO] Processing time step 666/999 (t = 7.31261e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.6556280065269675e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 665: RSS 0.34 GB
+[INFO] Processing time step 667/999 (t = 7.37014e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.2456070989137515e-06
+Converged: False
+Iterations: 100
+Final error: 5.5878176681289915e-06
+[MEM] step 666: RSS 0.34 GB
+[INFO] Processing time step 668/999 (t = 7.42811e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.0157822316614329e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 667: RSS 0.34 GB
+[INFO] Processing time step 669/999 (t = 7.48654e-02)...
+Converged: False
+Iterations: 100
+Final error: 5.081063591205748e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 668: RSS 0.34 GB
+[INFO] Processing time step 670/999 (t = 7.54543e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.7957985392058617e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 669: RSS 0.34 GB
+[INFO] Processing time step 671/999 (t = 7.60477e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.3578465996033628e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 670: RSS 0.34 GB
+[INFO] Processing time step 672/999 (t = 7.66458e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.5716221923867124e-06
+Converged: False
+Iterations: 100
+Final error: 5.534495358006097e-06
+[MEM] step 671: RSS 0.34 GB
+[INFO] Processing time step 673/999 (t = 7.72486e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.8740150810335763e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 672: RSS 0.34 GB
+[INFO] Processing time step 674/999 (t = 7.78561e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.540942321298644e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 673: RSS 0.34 GB
+[INFO] Processing time step 675/999 (t = 7.84683e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.423369318828918e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 674: RSS 0.34 GB
+[INFO] Processing time step 676/999 (t = 7.90854e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.004625002882676e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 675: RSS 0.34 GB
+[INFO] Processing time step 677/999 (t = 7.97072e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.1067602321854793e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 676: RSS 0.34 GB
+[INFO] Processing time step 678/999 (t = 8.03340e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.563189127613441e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 677: RSS 0.34 GB
+[INFO] Processing time step 679/999 (t = 8.09656e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.900573579405318e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 678: RSS 0.34 GB
+[INFO] Processing time step 680/999 (t = 8.16022e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.7959067690753727e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 679: RSS 0.34 GB
+[INFO] Processing time step 681/999 (t = 8.22437e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.0785951164725702e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 680: RSS 0.34 GB
+[INFO] Processing time step 682/999 (t = 8.28903e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.519929694244638e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 681: RSS 0.34 GB
+[INFO] Processing time step 683/999 (t = 8.35419e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.5796148293011356e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 682: RSS 0.34 GB
+[INFO] Processing time step 684/999 (t = 8.41986e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.9504888061637757e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 683: RSS 0.34 GB
+[INFO] Processing time step 685/999 (t = 8.48605e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.4160465298118652e-06
+Converged: False
+Iterations: 100
+Final error: 4.811295639228774e-06
+[MEM] step 684: RSS 0.34 GB
+[INFO] Processing time step 686/999 (t = 8.55275e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.7172087559156353e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 685: RSS 0.34 GB
+[INFO] Processing time step 687/999 (t = 8.61998e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.498245860100724e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 686: RSS 0.34 GB
+[INFO] Processing time step 688/999 (t = 8.68773e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.632128366210964e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 687: RSS 0.34 GB
+[INFO] Processing time step 689/999 (t = 8.75601e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.861372533719987e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 688: RSS 0.34 GB
+[INFO] Processing time step 690/999 (t = 8.82483e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.6569705369183794e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 689: RSS 0.34 GB
+[INFO] Processing time step 691/999 (t = 8.89418e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.655350838016602e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 690: RSS 0.34 GB
+[INFO] Processing time step 692/999 (t = 8.96408e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.520183665590594e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 691: RSS 0.34 GB
+[INFO] Processing time step 693/999 (t = 9.03452e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.1874329857164412e-06
+Converged: False
+Iterations: 100
+Final error: 1.2755134548569913e-06
+[MEM] step 692: RSS 0.34 GB
+[INFO] Processing time step 694/999 (t = 9.10552e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.7365998650784604e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 693: RSS 0.34 GB
+[INFO] Processing time step 695/999 (t = 9.17707e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.337814978796814e-06
+Converged: False
+Iterations: 100
+Final error: 5.694196261174511e-06
+[MEM] step 694: RSS 0.34 GB
+[INFO] Processing time step 696/999 (t = 9.24918e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.9165596515667858e-06
+Converged: False
+Iterations: 100
+Final error: 1.7455042780056829e-06
+[MEM] step 695: RSS 0.34 GB
+[INFO] Processing time step 697/999 (t = 9.32185e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.137514911737526e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 696: RSS 0.34 GB
+[INFO] Processing time step 698/999 (t = 9.39509e-02)...
+Converged: False
+Iterations: 100
+Final error: 3.758670118259033e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 697: RSS 0.34 GB
+[INFO] Processing time step 699/999 (t = 9.46891e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.4994365048769396e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 698: RSS 0.34 GB
+[INFO] Processing time step 700/999 (t = 9.54330e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.5327294704547967e-06
+Converged: False
+Iterations: 100
+Final error: 1.7102369156418717e-06
+[MEM] step 699: RSS 0.34 GB
+[INFO] Processing time step 701/999 (t = 9.61828e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.6141688092830009e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 700: RSS 0.34 GB
+[INFO] Processing time step 702/999 (t = 9.69384e-02)...
+Converged: False
+Iterations: 100
+Final error: 1.8407496327199624e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 701: RSS 0.34 GB
+[INFO] Processing time step 703/999 (t = 9.76999e-02)...
+Converged: False
+Iterations: 100
+Final error: 4.6279592424980365e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 702: RSS 0.34 GB
+[INFO] Processing time step 704/999 (t = 9.84674e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.3893635443528183e-06
+Converged: False
+Iterations: 100
+Final error: 1.304814531977172e-06
+[MEM] step 703: RSS 0.34 GB
+[INFO] Processing time step 705/999 (t = 9.92408e-02)...
+Converged: False
+Iterations: 100
+Final error: 2.943912932096282e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 704: RSS 0.34 GB
+[INFO] Processing time step 706/999 (t = 1.00020e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.209775402661762e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 705: RSS 0.34 GB
+[INFO] Processing time step 707/999 (t = 1.00806e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.4844485930516385e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 706: RSS 0.34 GB
+[INFO] Processing time step 708/999 (t = 1.01598e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7691874063530122e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 707: RSS 0.34 GB
+[INFO] Processing time step 709/999 (t = 1.02396e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.0682215310662286e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 708: RSS 0.34 GB
+[INFO] Processing time step 710/999 (t = 1.03200e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.472357098464272e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 709: RSS 0.34 GB
+[INFO] Processing time step 711/999 (t = 1.04010e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6703139635865227e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 710: RSS 0.34 GB
+[INFO] Processing time step 712/999 (t = 1.04827e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.812184336813516e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 711: RSS 0.34 GB
+[INFO] Processing time step 713/999 (t = 1.05651e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.592201094055781e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 712: RSS 0.34 GB
+[INFO] Processing time step 714/999 (t = 1.06480e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.357896043278743e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 713: RSS 0.34 GB
+[INFO] Processing time step 715/999 (t = 1.07316e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.517326265660813e-06
+Converged: False
+Iterations: 100
+Final error: 4.498455837165238e-06
+[MEM] step 714: RSS 0.34 GB
+[INFO] Processing time step 716/999 (t = 1.08159e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7592208223504713e-06
+Converged: False
+Iterations: 100
+Final error: 1.0456127483848832e-06
+[MEM] step 715: RSS 0.34 GB
+[INFO] Processing time step 717/999 (t = 1.09008e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.9590462418127572e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 716: RSS 0.34 GB
+[INFO] Processing time step 718/999 (t = 1.09864e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2214976550239953e-06
+Converged: False
+Iterations: 100
+Final error: 1.757839754645829e-06
+[MEM] step 717: RSS 0.34 GB
+[INFO] Processing time step 719/999 (t = 1.10727e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1585652828216553e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 718: RSS 0.34 GB
+[INFO] Processing time step 720/999 (t = 1.11596e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.8016853573499247e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 719: RSS 0.34 GB
+[INFO] Processing time step 721/999 (t = 1.12473e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.701784981378296e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 720: RSS 0.34 GB
+[INFO] Processing time step 722/999 (t = 1.13356e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.8999704682064475e-06
+Converged: False
+Iterations: 100
+Final error: 2.254327000628109e-06
+[MEM] step 721: RSS 0.34 GB
+[INFO] Processing time step 723/999 (t = 1.14246e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.018470129565685e-06
+Converged: False
+Iterations: 100
+Final error: 1.3167095858079847e-06
+[MEM] step 722: RSS 0.34 GB
+[INFO] Processing time step 724/999 (t = 1.15142e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7619323671169695e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 723: RSS 0.34 GB
+[INFO] Processing time step 725/999 (t = 1.16046e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.846695785294287e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 724: RSS 0.34 GB
+[INFO] Processing time step 726/999 (t = 1.16957e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1837340707643307e-06
+Converged: False
+Iterations: 100
+Final error: 1.149129730038112e-06
+[MEM] step 725: RSS 0.34 GB
+[INFO] Processing time step 727/999 (t = 1.17875e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.9435235572018428e-06
+Converged: False
+Iterations: 100
+Final error: 2.293296802236e-06
+[MEM] step 726: RSS 0.34 GB
+[INFO] Processing time step 728/999 (t = 1.18801e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.3544482650759164e-06
+Converged: False
+Iterations: 100
+Final error: 1.957681661224342e-06
+[MEM] step 727: RSS 0.34 GB
+[INFO] Processing time step 729/999 (t = 1.19733e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.2957452731352532e-06
+Converged: False
+Iterations: 100
+Final error: 2.8237404876563232e-06
+[MEM] step 728: RSS 0.34 GB
+[INFO] Processing time step 730/999 (t = 1.20673e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4944033637220855e-06
+Converged: False
+Iterations: 100
+Final error: 1.7354295778204687e-06
+[MEM] step 729: RSS 0.34 GB
+[INFO] Processing time step 731/999 (t = 1.21620e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.3029797375784256e-06
+Converged: False
+Iterations: 100
+Final error: 1.4701121244797832e-06
+[MEM] step 730: RSS 0.34 GB
+[INFO] Processing time step 732/999 (t = 1.22575e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2062637324561365e-06
+Converged: False
+Iterations: 100
+Final error: 4.872355020779651e-06
+[MEM] step 731: RSS 0.34 GB
+[INFO] Processing time step 733/999 (t = 1.23537e-01)...
+Converged: False
+Iterations: 100
+Final error: 9.849219395619002e-07
+Converged: False
+Iterations: 100
+Final error: 1.6781265230747522e-06
+[MEM] step 732: RSS 0.34 GB
+[INFO] Processing time step 734/999 (t = 1.24507e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6835550695759594e-06
+Converged: False
+Iterations: 100
+Final error: 1.4018975207363837e-06
+[MEM] step 733: RSS 0.34 GB
+[INFO] Processing time step 735/999 (t = 1.25484e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7168617887364235e-06
+Converged: False
+Iterations: 100
+Final error: 1.6699608522685594e-06
+[MEM] step 734: RSS 0.34 GB
+[INFO] Processing time step 736/999 (t = 1.26469e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.506135610427009e-06
+Converged: False
+Iterations: 100
+Final error: 1.6450774182885652e-06
+[MEM] step 735: RSS 0.34 GB
+[INFO] Processing time step 737/999 (t = 1.27461e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.4574004530441016e-06
+Converged: False
+Iterations: 100
+Final error: 1.3850116147295921e-06
+[MEM] step 736: RSS 0.34 GB
+[INFO] Processing time step 738/999 (t = 1.28461e-01)...
+Converged: False
+Iterations: 100
+Final error: 6.50688480163808e-06
+Converged: False
+Iterations: 100
+Final error: 4.466021891857963e-06
+[MEM] step 737: RSS 0.34 GB
+[INFO] Processing time step 739/999 (t = 1.29470e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6270522564809653e-06
+Converged: False
+Iterations: 100
+Final error: 1.1636092267508502e-06
+[MEM] step 738: RSS 0.34 GB
+[INFO] Processing time step 740/999 (t = 1.30486e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.7985487324476708e-06
+Converged: False
+Iterations: 100
+Final error: 2.0345473785710055e-06
+[MEM] step 739: RSS 0.34 GB
+[INFO] Processing time step 741/999 (t = 1.31509e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.1446835489769e-06
+Converged: False
+Iterations: 100
+Final error: 4.925652319798246e-06
+[MEM] step 740: RSS 0.34 GB
+[INFO] Processing time step 742/999 (t = 1.32541e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.8044792113869335e-06
+Converged: False
+Iterations: 100
+Final error: 1.6722405007385532e-06
+[MEM] step 741: RSS 0.34 GB
+[INFO] Processing time step 743/999 (t = 1.33581e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.936552735060104e-06
+Converged: False
+Iterations: 100
+Final error: 1.2117504866182571e-06
+[MEM] step 742: RSS 0.34 GB
+[INFO] Processing time step 744/999 (t = 1.34630e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.415253442857647e-06
+Converged: False
+Iterations: 100
+Final error: 4.240449015924241e-06
+[MEM] step 743: RSS 0.34 GB
+[INFO] Processing time step 745/999 (t = 1.35686e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.751504555613792e-06
+Converged: True
+Iterations: 5
+Final error: 0.0
+[MEM] step 744: RSS 0.34 GB
+[INFO] Processing time step 746/999 (t = 1.36751e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.870940417982638e-06
+Converged: False
+Iterations: 100
+Final error: 1.299533778365003e-06
+[MEM] step 745: RSS 0.34 GB
+[INFO] Processing time step 747/999 (t = 1.37824e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.535741603220231e-06
+Converged: False
+Iterations: 100
+Final error: 5.039090865466278e-06
+[MEM] step 746: RSS 0.34 GB
+[INFO] Processing time step 748/999 (t = 1.38905e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.929198899437324e-06
+Converged: False
+Iterations: 100
+Final error: 1.189890667774307e-06
+[MEM] step 747: RSS 0.34 GB
+[INFO] Processing time step 749/999 (t = 1.39995e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.165803834941471e-06
+Converged: False
+Iterations: 100
+Final error: 1.3424180451693246e-06
+[MEM] step 748: RSS 0.34 GB
+[INFO] Processing time step 750/999 (t = 1.41093e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.7437980608956423e-06
+Converged: False
+Iterations: 100
+Final error: 1.2048535609210376e-06
+[MEM] step 749: RSS 0.34 GB
+[INFO] Processing time step 751/999 (t = 1.43316e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1729046036634827e-06
+Converged: False
+Iterations: 100
+Final error: 2.0367972410895163e-06
+[MEM] step 750: RSS 0.34 GB
+[INFO] Processing time step 752/999 (t = 1.44440e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3992023468745174e-06
+Converged: False
+Iterations: 100
+Final error: 2.9358998290263116e-06
+[MEM] step 751: RSS 0.34 GB
+[INFO] Processing time step 753/999 (t = 1.45573e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.992018264398212e-06
+Converged: False
+Iterations: 100
+Final error: 2.997194542331272e-06
+[MEM] step 752: RSS 0.34 GB
+[INFO] Processing time step 754/999 (t = 1.46715e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.519693786482094e-06
+Converged: False
+Iterations: 100
+Final error: 2.4788664632069413e-06
+[MEM] step 753: RSS 0.34 GB
+[INFO] Processing time step 755/999 (t = 1.47866e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.0076273611048236e-06
+Converged: False
+Iterations: 100
+Final error: 1.516847419225087e-06
+[MEM] step 754: RSS 0.34 GB
+[INFO] Processing time step 756/999 (t = 1.49026e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.313475644972641e-06
+Converged: False
+Iterations: 100
+Final error: 1.5415727148138103e-06
+[MEM] step 755: RSS 0.34 GB
+[INFO] Processing time step 757/999 (t = 1.50195e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.6059358333441196e-06
+Converged: False
+Iterations: 100
+Final error: 2.441893002469442e-06
+[MEM] step 756: RSS 0.34 GB
+[INFO] Processing time step 758/999 (t = 1.51373e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1919997859877185e-06
+Converged: False
+Iterations: 100
+Final error: 4.63801052319468e-06
+[MEM] step 757: RSS 0.34 GB
+[INFO] Processing time step 759/999 (t = 1.52560e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.5130104808777105e-06
+Converged: False
+Iterations: 100
+Final error: 1.6699192428859533e-06
+[MEM] step 758: RSS 0.34 GB
+[INFO] Processing time step 760/999 (t = 1.53757e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.994551212192164e-06
+Converged: False
+Iterations: 100
+Final error: 4.5605374907609075e-06
+[MEM] step 759: RSS 0.34 GB
+[INFO] Processing time step 761/999 (t = 1.54963e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3568497934102197e-06
+Converged: False
+Iterations: 100
+Final error: 1.7959183651328203e-06
+[MEM] step 760: RSS 0.34 GB
+[INFO] Processing time step 762/999 (t = 1.56178e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.80482742912136e-06
+Converged: False
+Iterations: 100
+Final error: 6.864906481496291e-06
+[MEM] step 761: RSS 0.34 GB
+[INFO] Processing time step 763/999 (t = 1.57403e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.1303302421292756e-06
+Converged: False
+Iterations: 100
+Final error: 4.508010533754714e-06
+[MEM] step 762: RSS 0.34 GB
+[INFO] Processing time step 764/999 (t = 1.58638e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.232033466498251e-06
+Converged: False
+Iterations: 100
+Final error: 1.3550126141126384e-06
+[MEM] step 763: RSS 0.34 GB
+[INFO] Processing time step 765/999 (t = 1.59882e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.3302040972339455e-06
+Converged: False
+Iterations: 100
+Final error: 8.969598752628372e-07
+[MEM] step 764: RSS 0.34 GB
+[INFO] Processing time step 766/999 (t = 1.61136e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.697788547971868e-06
+Converged: False
+Iterations: 100
+Final error: 5.97423195358715e-06
+[MEM] step 765: RSS 0.34 GB
+[INFO] Processing time step 767/999 (t = 1.62400e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7572237993590534e-06
+Converged: False
+Iterations: 100
+Final error: 1.2958121260453481e-06
+[MEM] step 766: RSS 0.34 GB
+[INFO] Processing time step 768/999 (t = 1.63673e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.544588596720132e-06
+Converged: False
+Iterations: 100
+Final error: 1.1815220659627812e-06
+[MEM] step 767: RSS 0.34 GB
+[INFO] Processing time step 769/999 (t = 1.64957e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5707478269177955e-06
+Converged: False
+Iterations: 100
+Final error: 3.1012611998448847e-06
+[MEM] step 768: RSS 0.34 GB
+[INFO] Processing time step 770/999 (t = 1.66250e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.6285586045560194e-06
+Converged: False
+Iterations: 100
+Final error: 4.255261501384666e-06
+[MEM] step 769: RSS 0.34 GB
+[INFO] Processing time step 771/999 (t = 1.67554e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.088955281782546e-06
+Converged: False
+Iterations: 100
+Final error: 4.2293336264265236e-06
+[MEM] step 770: RSS 0.34 GB
+[INFO] Processing time step 772/999 (t = 1.68868e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.171980890532723e-06
+Converged: False
+Iterations: 100
+Final error: 2.29223746828211e-06
+[MEM] step 771: RSS 0.34 GB
+[INFO] Processing time step 773/999 (t = 1.70192e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.8725842134444974e-06
+Converged: False
+Iterations: 100
+Final error: 3.6267149425839307e-06
+[MEM] step 772: RSS 0.34 GB
+[INFO] Processing time step 774/999 (t = 1.71527e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.5230632420280017e-06
+Converged: False
+Iterations: 100
+Final error: 1.4220512412066455e-06
+[MEM] step 773: RSS 0.34 GB
+[INFO] Processing time step 775/999 (t = 1.72872e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.2998924578132574e-06
+Converged: False
+Iterations: 100
+Final error: 3.3297344543825602e-06
+[MEM] step 774: RSS 0.34 GB
+[INFO] Processing time step 776/999 (t = 1.74227e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.4428618417005055e-06
+Converged: False
+Iterations: 100
+Final error: 1.6945976994975354e-06
+[MEM] step 775: RSS 0.34 GB
+[INFO] Processing time step 777/999 (t = 1.75593e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2623843304027105e-06
+Converged: False
+Iterations: 100
+Final error: 1.2009367083010147e-06
+[MEM] step 776: RSS 0.34 GB
+[INFO] Processing time step 778/999 (t = 1.76970e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.278503522276878e-06
+Converged: False
+Iterations: 100
+Final error: 1.0454866696818499e-06
+[MEM] step 777: RSS 0.34 GB
+[INFO] Processing time step 779/999 (t = 1.78358e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.0009427973709535e-06
+Converged: False
+Iterations: 100
+Final error: 1.3427023759504664e-06
+[MEM] step 778: RSS 0.34 GB
+[INFO] Processing time step 780/999 (t = 1.79756e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.783838908726466e-06
+Converged: False
+Iterations: 100
+Final error: 1.4455710015681689e-06
+[MEM] step 779: RSS 0.34 GB
+[INFO] Processing time step 781/999 (t = 1.81166e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.4838609533617273e-06
+Converged: False
+Iterations: 100
+Final error: 1.4583167740056524e-06
+[MEM] step 780: RSS 0.34 GB
+[INFO] Processing time step 782/999 (t = 1.82586e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.544558916881215e-06
+Converged: False
+Iterations: 100
+Final error: 1.347010538665927e-06
+[MEM] step 781: RSS 0.34 GB
+[INFO] Processing time step 783/999 (t = 1.84018e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.628119202403468e-06
+Converged: False
+Iterations: 100
+Final error: 1.5989699022611603e-06
+[MEM] step 782: RSS 0.34 GB
+[INFO] Processing time step 784/999 (t = 1.85460e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3824241023030481e-06
+Converged: False
+Iterations: 100
+Final error: 2.465207899149391e-06
+[MEM] step 783: RSS 0.34 GB
+[INFO] Processing time step 785/999 (t = 1.86914e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.614013967810024e-06
+Converged: False
+Iterations: 100
+Final error: 1.188811324936978e-06
+[MEM] step 784: RSS 0.34 GB
+[INFO] Processing time step 786/999 (t = 1.88380e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.220042567088967e-06
+Converged: False
+Iterations: 100
+Final error: 1.0910522405538359e-06
+[MEM] step 785: RSS 0.34 GB
+[INFO] Processing time step 787/999 (t = 1.89856e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3745766409556381e-06
+Converged: False
+Iterations: 100
+Final error: 1.8660692830962944e-06
+[MEM] step 786: RSS 0.34 GB
+[INFO] Processing time step 788/999 (t = 1.91345e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.456453214312205e-06
+Converged: False
+Iterations: 100
+Final error: 3.568091187844402e-06
+[MEM] step 787: RSS 0.34 GB
+[INFO] Processing time step 789/999 (t = 1.92845e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.441095714151743e-06
+Converged: False
+Iterations: 100
+Final error: 1.7345937521895394e-06
+[MEM] step 788: RSS 0.34 GB
+[INFO] Processing time step 790/999 (t = 1.94357e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7228934439117438e-06
+Converged: False
+Iterations: 100
+Final error: 3.973343154939357e-06
+[MEM] step 789: RSS 0.34 GB
+[INFO] Processing time step 791/999 (t = 1.95880e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.2364063170243753e-06
+Converged: False
+Iterations: 100
+Final error: 7.126714990590699e-06
+[MEM] step 790: RSS 0.34 GB
+[INFO] Processing time step 792/999 (t = 1.97416e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5841991398701794e-06
+Converged: False
+Iterations: 100
+Final error: 1.588791519679944e-06
+[MEM] step 791: RSS 0.34 GB
+[INFO] Processing time step 793/999 (t = 1.98963e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.5665087832749123e-06
+Converged: False
+Iterations: 100
+Final error: 5.153836355020758e-06
+[MEM] step 792: RSS 0.34 GB
+[INFO] Processing time step 794/999 (t = 2.00523e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.055526344222017e-06
+Converged: False
+Iterations: 100
+Final error: 1.5884071444816072e-06
+[MEM] step 793: RSS 0.34 GB
+[INFO] Processing time step 795/999 (t = 2.02095e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.308261289523216e-06
+Converged: False
+Iterations: 100
+Final error: 4.235196229274152e-06
+[MEM] step 794: RSS 0.34 GB
+[INFO] Processing time step 796/999 (t = 2.03679e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.85045529785566e-06
+Converged: False
+Iterations: 100
+Final error: 2.8665110676229233e-06
+[MEM] step 795: RSS 0.34 GB
+[INFO] Processing time step 797/999 (t = 2.05275e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.4235633797361515e-06
+Converged: False
+Iterations: 100
+Final error: 5.2801451602135785e-06
+[MEM] step 796: RSS 0.34 GB
+[INFO] Processing time step 798/999 (t = 2.06884e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6471050230393303e-06
+Converged: False
+Iterations: 100
+Final error: 1.244804479938466e-06
+[MEM] step 797: RSS 0.34 GB
+[INFO] Processing time step 799/999 (t = 2.08506e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6072933703981107e-06
+Converged: False
+Iterations: 100
+Final error: 1.5977152543200646e-06
+[MEM] step 798: RSS 0.34 GB
+[INFO] Processing time step 800/999 (t = 2.10140e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.00617864720698e-06
+Converged: False
+Iterations: 100
+Final error: 4.8956267164612655e-06
+[MEM] step 799: RSS 0.34 GB
+[INFO] Processing time step 801/999 (t = 2.11787e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.009523996093776e-06
+Converged: False
+Iterations: 100
+Final error: 2.394619968981715e-06
+[MEM] step 800: RSS 0.34 GB
+[INFO] Processing time step 802/999 (t = 2.13447e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.390379217511509e-06
+Converged: False
+Iterations: 100
+Final error: 1.8745022316579707e-06
+[MEM] step 801: RSS 0.34 GB
+[INFO] Processing time step 803/999 (t = 2.15120e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2964438838025671e-06
+Converged: False
+Iterations: 100
+Final error: 2.0317727376095718e-06
+[MEM] step 802: RSS 0.34 GB
+[INFO] Processing time step 804/999 (t = 2.16806e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.4611654225736856e-06
+Converged: False
+Iterations: 100
+Final error: 8.65666788740782e-06
+[MEM] step 803: RSS 0.34 GB
+[INFO] Processing time step 805/999 (t = 2.18505e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.319417262697243e-06
+Converged: False
+Iterations: 100
+Final error: 2.14132592191163e-06
+[MEM] step 804: RSS 0.34 GB
+[INFO] Processing time step 806/999 (t = 2.20218e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.8988349665960413e-06
+Converged: False
+Iterations: 100
+Final error: 2.252125113955117e-06
+[MEM] step 805: RSS 0.34 GB
+[INFO] Processing time step 807/999 (t = 2.21944e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.6960910872730892e-06
+Converged: False
+Iterations: 100
+Final error: 1.925268861668883e-06
+[MEM] step 806: RSS 0.34 GB
+[INFO] Processing time step 808/999 (t = 2.23683e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.554071332066087e-06
+Converged: False
+Iterations: 100
+Final error: 1.5967074205036624e-06
+[MEM] step 807: RSS 0.34 GB
+[INFO] Processing time step 809/999 (t = 2.25436e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.1268831460474757e-06
+Converged: False
+Iterations: 100
+Final error: 1.2206111250634422e-06
+[MEM] step 808: RSS 0.34 GB
+[INFO] Processing time step 810/999 (t = 2.27203e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.1008070184034295e-06
+Converged: False
+Iterations: 100
+Final error: 4.0944669308373705e-06
+[MEM] step 809: RSS 0.34 GB
+[INFO] Processing time step 811/999 (t = 2.28983e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6740693808969809e-06
+Converged: False
+Iterations: 100
+Final error: 1.1751209285648656e-06
+[MEM] step 810: RSS 0.34 GB
+[INFO] Processing time step 812/999 (t = 2.30778e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.9970093489973806e-06
+Converged: False
+Iterations: 100
+Final error: 4.321445885580033e-06
+[MEM] step 811: RSS 0.34 GB
+[INFO] Processing time step 813/999 (t = 2.32586e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.317278469694429e-06
+Converged: False
+Iterations: 100
+Final error: 1.4621419950344716e-06
+[MEM] step 812: RSS 0.34 GB
+[INFO] Processing time step 814/999 (t = 2.34409e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.5229588775109733e-06
+Converged: False
+Iterations: 100
+Final error: 1.3509455811799853e-06
+[MEM] step 813: RSS 0.34 GB
+[INFO] Processing time step 815/999 (t = 2.36246e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5551781871181447e-06
+Converged: False
+Iterations: 100
+Final error: 2.220526084784069e-06
+[MEM] step 814: RSS 0.34 GB
+[INFO] Processing time step 816/999 (t = 2.38097e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.544756173643691e-06
+Converged: False
+Iterations: 100
+Final error: 1.8912077166532981e-06
+[MEM] step 815: RSS 0.34 GB
+[INFO] Processing time step 817/999 (t = 2.39963e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.413781203358667e-06
+Converged: False
+Iterations: 100
+Final error: 2.2630058538197773e-06
+[MEM] step 816: RSS 0.34 GB
+[INFO] Processing time step 818/999 (t = 2.41843e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.6379395876574563e-06
+Converged: False
+Iterations: 100
+Final error: 1.015959810501954e-06
+[MEM] step 817: RSS 0.34 GB
+[INFO] Processing time step 819/999 (t = 2.43738e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3171364798836294e-06
+Converged: False
+Iterations: 100
+Final error: 1.8271285853188601e-06
+[MEM] step 818: RSS 0.34 GB
+[INFO] Processing time step 820/999 (t = 2.45648e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.54014514919254e-06
+Converged: False
+Iterations: 100
+Final error: 1.2603653658516123e-06
+[MEM] step 819: RSS 0.34 GB
+[INFO] Processing time step 821/999 (t = 2.47573e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.666508524067467e-06
+Converged: False
+Iterations: 100
+Final error: 4.59945431430242e-06
+[MEM] step 820: RSS 0.34 GB
+[INFO] Processing time step 822/999 (t = 2.49513e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.6391891171660973e-06
+Converged: False
+Iterations: 100
+Final error: 1.1698004982463317e-06
+[MEM] step 821: RSS 0.34 GB
+[INFO] Processing time step 823/999 (t = 2.51468e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5671433857278316e-06
+Converged: False
+Iterations: 100
+Final error: 1.7978376263272366e-06
+[MEM] step 822: RSS 0.34 GB
+[INFO] Processing time step 824/999 (t = 2.53438e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.9010408323083539e-06
+Converged: False
+Iterations: 100
+Final error: 1.9664098545035813e-06
+[MEM] step 823: RSS 0.34 GB
+[INFO] Processing time step 825/999 (t = 2.55424e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5781034790052217e-06
+Converged: False
+Iterations: 100
+Final error: 1.4777808701182948e-06
+[MEM] step 824: RSS 0.34 GB
+[INFO] Processing time step 826/999 (t = 2.57425e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.102216058119666e-06
+Converged: False
+Iterations: 100
+Final error: 3.1329136618296616e-06
+[MEM] step 825: RSS 0.34 GB
+[INFO] Processing time step 827/999 (t = 2.59442e-01)...
+Converged: False
+Iterations: 100
+Final error: 7.57618181523867e-07
+Converged: False
+Iterations: 100
+Final error: 1.753136075421935e-06
+[MEM] step 826: RSS 0.34 GB
+[INFO] Processing time step 828/999 (t = 2.61475e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.227362986355729e-06
+Converged: False
+Iterations: 100
+Final error: 2.6715422336565098e-06
+[MEM] step 827: RSS 0.34 GB
+[INFO] Processing time step 829/999 (t = 2.63524e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.1074303024070105e-06
+Converged: False
+Iterations: 100
+Final error: 1.2005957614746876e-06
+[MEM] step 828: RSS 0.34 GB
+[INFO] Processing time step 830/999 (t = 2.65588e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.546641669847304e-06
+Converged: False
+Iterations: 100
+Final error: 1.6698943454684922e-06
+[MEM] step 829: RSS 0.34 GB
+[INFO] Processing time step 831/999 (t = 2.67669e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4759719988433062e-06
+Converged: False
+Iterations: 100
+Final error: 6.427163498301525e-06
+[MEM] step 830: RSS 0.34 GB
+[INFO] Processing time step 832/999 (t = 2.69766e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.046574539032008e-06
+Converged: False
+Iterations: 100
+Final error: 1.7884419776237337e-06
+[MEM] step 831: RSS 0.34 GB
+[INFO] Processing time step 833/999 (t = 2.71880e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1250191391809494e-06
+Converged: False
+Iterations: 100
+Final error: 1.6361872212655726e-06
+[MEM] step 832: RSS 0.34 GB
+[INFO] Processing time step 834/999 (t = 2.74010e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5754102378195967e-06
+Converged: False
+Iterations: 100
+Final error: 1.9039003973375657e-06
+[MEM] step 833: RSS 0.34 GB
+[INFO] Processing time step 835/999 (t = 2.76156e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.8775648413793533e-06
+Converged: False
+Iterations: 100
+Final error: 3.070240381930489e-06
+[MEM] step 834: RSS 0.34 GB
+[INFO] Processing time step 836/999 (t = 2.78320e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.70534064839012e-06
+Converged: False
+Iterations: 100
+Final error: 3.6219880712451413e-06
+[MEM] step 835: RSS 0.34 GB
+[INFO] Processing time step 837/999 (t = 2.80500e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.3550819605588913e-06
+Converged: False
+Iterations: 100
+Final error: 1.7701559045235626e-06
+[MEM] step 836: RSS 0.34 GB
+[INFO] Processing time step 838/999 (t = 2.82698e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.794492050066765e-06
+Converged: False
+Iterations: 100
+Final error: 5.178390892979223e-06
+[MEM] step 837: RSS 0.34 GB
+[INFO] Processing time step 839/999 (t = 2.84912e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.0198804122628644e-06
+Converged: False
+Iterations: 100
+Final error: 1.3754194014836685e-06
+[MEM] step 838: RSS 0.34 GB
+[INFO] Processing time step 840/999 (t = 2.87144e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3808320318275946e-06
+Converged: False
+Iterations: 100
+Final error: 2.6134259769605706e-06
+[MEM] step 839: RSS 0.34 GB
+[INFO] Processing time step 841/999 (t = 2.89394e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7477806295573828e-06
+Converged: False
+Iterations: 100
+Final error: 3.1133108677749988e-06
+[MEM] step 840: RSS 0.34 GB
+[INFO] Processing time step 842/999 (t = 2.91661e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.212391680383007e-06
+Converged: False
+Iterations: 100
+Final error: 1.4054814982955577e-06
+[MEM] step 841: RSS 0.34 GB
+[INFO] Processing time step 843/999 (t = 2.93946e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.4369121547351824e-06
+Converged: False
+Iterations: 100
+Final error: 1.3265433835840668e-06
+[MEM] step 842: RSS 0.34 GB
+[INFO] Processing time step 844/999 (t = 2.96248e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.349018134533253e-06
+Converged: False
+Iterations: 100
+Final error: 1.3158767160348361e-06
+[MEM] step 843: RSS 0.34 GB
+[INFO] Processing time step 845/999 (t = 2.98569e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6571052583458368e-06
+Converged: False
+Iterations: 100
+Final error: 2.5373028620379046e-06
+[MEM] step 844: RSS 0.34 GB
+[INFO] Processing time step 846/999 (t = 3.00908e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7121833479905035e-06
+Converged: False
+Iterations: 100
+Final error: 5.712177426175913e-06
+[MEM] step 845: RSS 0.34 GB
+[INFO] Processing time step 847/999 (t = 3.03265e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.0839795524807414e-06
+Converged: False
+Iterations: 100
+Final error: 1.3656022019858938e-06
+[MEM] step 846: RSS 0.34 GB
+[INFO] Processing time step 848/999 (t = 3.05640e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.4724203032965306e-06
+Converged: False
+Iterations: 100
+Final error: 3.2804157399368705e-06
+[MEM] step 847: RSS 0.34 GB
+[INFO] Processing time step 849/999 (t = 3.08035e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3493009873855044e-06
+Converged: False
+Iterations: 100
+Final error: 1.4712255733684287e-06
+[MEM] step 848: RSS 0.34 GB
+[INFO] Processing time step 850/999 (t = 3.10447e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.8623172763909679e-06
+Converged: False
+Iterations: 100
+Final error: 2.5272408947785152e-06
+[MEM] step 849: RSS 0.34 GB
+[INFO] Processing time step 851/999 (t = 3.12879e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.6257059744239086e-06
+Converged: False
+Iterations: 100
+Final error: 3.2348564218409592e-06
+[MEM] step 850: RSS 0.34 GB
+[INFO] Processing time step 852/999 (t = 3.15330e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.417716475771158e-06
+Converged: False
+Iterations: 100
+Final error: 2.735350108196144e-06
+[MEM] step 851: RSS 0.34 GB
+[INFO] Processing time step 853/999 (t = 3.17800e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.319887016710709e-06
+Converged: False
+Iterations: 100
+Final error: 4.388126399135217e-06
+[MEM] step 852: RSS 0.34 GB
+[INFO] Processing time step 854/999 (t = 3.20289e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.990424379982869e-06
+Converged: False
+Iterations: 100
+Final error: 4.672660452342825e-06
+[MEM] step 853: RSS 0.34 GB
+[INFO] Processing time step 855/999 (t = 3.22798e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.226439043326536e-06
+Converged: False
+Iterations: 100
+Final error: 3.2428647500637453e-06
+[MEM] step 854: RSS 0.34 GB
+[INFO] Processing time step 856/999 (t = 3.25326e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.05981950784917e-06
+Converged: False
+Iterations: 100
+Final error: 1.4797844869463006e-06
+[MEM] step 855: RSS 0.34 GB
+[INFO] Processing time step 857/999 (t = 3.27874e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4621419950344716e-06
+Converged: False
+Iterations: 100
+Final error: 1.8399540522295865e-06
+[MEM] step 856: RSS 0.34 GB
+[INFO] Processing time step 858/999 (t = 3.30442e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.754291361066862e-06
+Converged: False
+Iterations: 100
+Final error: 3.4733711800072342e-06
+[MEM] step 857: RSS 0.34 GB
+[INFO] Processing time step 859/999 (t = 3.33030e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.2605433918652125e-06
+Converged: False
+Iterations: 100
+Final error: 1.115057216338755e-06
+[MEM] step 858: RSS 0.34 GB
+[INFO] Processing time step 860/999 (t = 3.35639e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1108987791885738e-06
+Converged: False
+Iterations: 100
+Final error: 1.8472820784154464e-06
+[MEM] step 859: RSS 0.34 GB
+[INFO] Processing time step 861/999 (t = 3.38268e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.84892416857474e-06
+Converged: False
+Iterations: 100
+Final error: 2.755911737040151e-06
+[MEM] step 860: RSS 0.34 GB
+[INFO] Processing time step 862/999 (t = 3.40917e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.240180598775623e-06
+Converged: False
+Iterations: 100
+Final error: 1.3596085182143725e-06
+[MEM] step 861: RSS 0.34 GB
+[INFO] Processing time step 863/999 (t = 3.43587e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.9093873763486044e-06
+Converged: False
+Iterations: 100
+Final error: 1.2248445955265197e-06
+[MEM] step 862: RSS 0.34 GB
+[INFO] Processing time step 864/999 (t = 3.46278e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.470381559760426e-06
+Converged: False
+Iterations: 100
+Final error: 1.2949336678502732e-06
+[MEM] step 863: RSS 0.34 GB
+[INFO] Processing time step 865/999 (t = 3.48990e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.5297326828876976e-06
+Converged: False
+Iterations: 100
+Final error: 1.5629580047971103e-06
+[MEM] step 864: RSS 0.34 GB
+[INFO] Processing time step 866/999 (t = 3.51723e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.217102741677081e-06
+Converged: False
+Iterations: 100
+Final error: 1.7471730870965985e-06
+[MEM] step 865: RSS 0.34 GB
+[INFO] Processing time step 867/999 (t = 3.54478e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.895615463989088e-06
+Converged: False
+Iterations: 100
+Final error: 1.7536623317937483e-06
+[MEM] step 866: RSS 0.34 GB
+[INFO] Processing time step 868/999 (t = 3.57254e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.154194700982771e-06
+Converged: False
+Iterations: 100
+Final error: 1.0528806342335884e-06
+[MEM] step 867: RSS 0.34 GB
+[INFO] Processing time step 869/999 (t = 3.60052e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.801007329049753e-06
+Converged: False
+Iterations: 100
+Final error: 1.3937615221948363e-06
+[MEM] step 868: RSS 0.34 GB
+[INFO] Processing time step 870/999 (t = 3.62872e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6620807627987233e-06
+Converged: False
+Iterations: 100
+Final error: 1.839026026573265e-06
+[MEM] step 869: RSS 0.34 GB
+[INFO] Processing time step 871/999 (t = 3.65713e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7810355075198459e-06
+Converged: False
+Iterations: 100
+Final error: 1.6152516764122993e-06
+[MEM] step 870: RSS 0.34 GB
+[INFO] Processing time step 872/999 (t = 3.68577e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.252141025062883e-06
+Converged: False
+Iterations: 100
+Final error: 2.6465743303560885e-06
+[MEM] step 871: RSS 0.34 GB
+[INFO] Processing time step 873/999 (t = 3.71464e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3295111784827895e-06
+Converged: False
+Iterations: 100
+Final error: 4.5357164708548225e-06
+[MEM] step 872: RSS 0.34 GB
+[INFO] Processing time step 874/999 (t = 3.74373e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.885992100549629e-06
+Converged: False
+Iterations: 100
+Final error: 1.2367571571303415e-06
+[MEM] step 873: RSS 0.34 GB
+[INFO] Processing time step 875/999 (t = 3.77305e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.549689386592945e-06
+Converged: False
+Iterations: 100
+Final error: 1.2380356793073588e-06
+[MEM] step 874: RSS 0.34 GB
+[INFO] Processing time step 876/999 (t = 3.80260e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.980979616040713e-06
+Converged: False
+Iterations: 100
+Final error: 3.5203895549784647e-06
+[MEM] step 875: RSS 0.34 GB
+[INFO] Processing time step 877/999 (t = 3.83237e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.157876785233384e-06
+Converged: False
+Iterations: 100
+Final error: 2.4171306449716212e-06
+[MEM] step 876: RSS 0.34 GB
+[INFO] Processing time step 878/999 (t = 3.86238e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3722828953177668e-06
+Converged: False
+Iterations: 100
+Final error: 3.513288447720697e-06
+[MEM] step 877: RSS 0.34 GB
+[INFO] Processing time step 879/999 (t = 3.89263e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.081943072582362e-06
+Converged: False
+Iterations: 100
+Final error: 3.8029029383324087e-06
+[MEM] step 878: RSS 0.34 GB
+[INFO] Processing time step 880/999 (t = 3.92311e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.879921567000565e-06
+Converged: False
+Iterations: 100
+Final error: 2.6614688977133483e-06
+[MEM] step 879: RSS 0.34 GB
+[INFO] Processing time step 881/999 (t = 3.95384e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7945849322131835e-06
+Converged: False
+Iterations: 100
+Final error: 1.2296054592297878e-06
+[MEM] step 880: RSS 0.34 GB
+[INFO] Processing time step 882/999 (t = 3.98480e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.824483547352429e-06
+Converged: False
+Iterations: 100
+Final error: 1.8256279190609348e-06
+[MEM] step 881: RSS 0.34 GB
+[INFO] Processing time step 883/999 (t = 4.01600e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5569262359349523e-06
+Converged: False
+Iterations: 100
+Final error: 3.3000878829625435e-06
+[MEM] step 882: RSS 0.34 GB
+[INFO] Processing time step 884/999 (t = 4.04745e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.2648167689330876e-06
+Converged: False
+Iterations: 100
+Final error: 1.5368256072179065e-06
+[MEM] step 883: RSS 0.34 GB
+[INFO] Processing time step 885/999 (t = 4.07914e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.9490960312396055e-06
+Converged: False
+Iterations: 100
+Final error: 1.0566042192294844e-06
+[MEM] step 884: RSS 0.34 GB
+[INFO] Processing time step 886/999 (t = 4.11108e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.824255029234337e-06
+Converged: False
+Iterations: 100
+Final error: 2.7033520382246934e-06
+[MEM] step 885: RSS 0.34 GB
+[INFO] Processing time step 887/999 (t = 4.14328e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.5746038520301227e-06
+Converged: False
+Iterations: 100
+Final error: 2.5483300305495504e-06
+[MEM] step 886: RSS 0.34 GB
+[INFO] Processing time step 888/999 (t = 4.17572e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.4997749480680795e-06
+Converged: False
+Iterations: 100
+Final error: 7.99907047621673e-06
+[MEM] step 887: RSS 0.34 GB
+[INFO] Processing time step 889/999 (t = 4.20842e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2048362805217039e-06
+Converged: False
+Iterations: 100
+Final error: 3.2959135296550812e-06
+[MEM] step 888: RSS 0.34 GB
+[INFO] Processing time step 890/999 (t = 4.24137e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2983745136807556e-06
+Converged: False
+Iterations: 100
+Final error: 3.936891516787e-06
+[MEM] step 889: RSS 0.34 GB
+[INFO] Processing time step 891/999 (t = 4.27458e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.7305743515171343e-06
+Converged: False
+Iterations: 100
+Final error: 2.581397666290286e-06
+[MEM] step 890: RSS 0.34 GB
+[INFO] Processing time step 892/999 (t = 4.30805e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6444910215795971e-06
+Converged: False
+Iterations: 100
+Final error: 1.4518694797516218e-06
+[MEM] step 891: RSS 0.34 GB
+[INFO] Processing time step 893/999 (t = 4.34178e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.3709513900248567e-06
+Converged: False
+Iterations: 100
+Final error: 3.1966571896191454e-06
+[MEM] step 892: RSS 0.34 GB
+[INFO] Processing time step 894/999 (t = 4.37578e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.089542471774621e-06
+Converged: False
+Iterations: 100
+Final error: 2.361387487326283e-06
+[MEM] step 893: RSS 0.34 GB
+[INFO] Processing time step 895/999 (t = 4.41004e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.7065123074644362e-06
+Converged: False
+Iterations: 100
+Final error: 1.1306241276543005e-06
+[MEM] step 894: RSS 0.34 GB
+[INFO] Processing time step 896/999 (t = 4.44457e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.054016244481318e-06
+Converged: False
+Iterations: 100
+Final error: 1.4002235957377707e-06
+[MEM] step 895: RSS 0.34 GB
+[INFO] Processing time step 897/999 (t = 4.47937e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2643450872928952e-06
+Converged: False
+Iterations: 100
+Final error: 4.438965788722271e-06
+[MEM] step 896: RSS 0.34 GB
+[INFO] Processing time step 898/999 (t = 4.51444e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.206416183980764e-06
+Converged: False
+Iterations: 100
+Final error: 1.2582274848682573e-06
+[MEM] step 897: RSS 0.34 GB
+[INFO] Processing time step 899/999 (t = 4.54979e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4780391666135984e-06
+Converged: False
+Iterations: 100
+Final error: 1.4241527424019296e-06
+[MEM] step 898: RSS 0.34 GB
+[INFO] Processing time step 900/999 (t = 4.58541e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.1384269075497286e-06
+Converged: False
+Iterations: 100
+Final error: 5.238640369498171e-06
+[MEM] step 899: RSS 0.34 GB
+[INFO] Processing time step 901/999 (t = 4.62132e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.1284354261297267e-06
+Converged: False
+Iterations: 100
+Final error: 1.385637688144925e-06
+[MEM] step 900: RSS 0.34 GB
+[INFO] Processing time step 902/999 (t = 4.65750e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4999278619143297e-06
+Converged: False
+Iterations: 100
+Final error: 1.6503246342836064e-06
+[MEM] step 901: RSS 0.34 GB
+[INFO] Processing time step 903/999 (t = 4.69397e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4276661204348784e-06
+Converged: False
+Iterations: 100
+Final error: 3.507308974803891e-06
+[MEM] step 902: RSS 0.34 GB
+[INFO] Processing time step 904/999 (t = 4.73072e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.7020033687440446e-06
+Converged: False
+Iterations: 100
+Final error: 1.444380131943035e-06
+[MEM] step 903: RSS 0.34 GB
+[INFO] Processing time step 905/999 (t = 4.76776e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6008565353331505e-06
+Converged: False
+Iterations: 100
+Final error: 1.334808530373266e-06
+[MEM] step 904: RSS 0.34 GB
+[INFO] Processing time step 906/999 (t = 4.80508e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.005815531447297e-06
+Converged: False
+Iterations: 100
+Final error: 1.5297749769160873e-06
+[MEM] step 905: RSS 0.34 GB
+[INFO] Processing time step 907/999 (t = 4.84271e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.922657808492659e-06
+Converged: False
+Iterations: 100
+Final error: 1.674682721386489e-06
+[MEM] step 906: RSS 0.34 GB
+[INFO] Processing time step 908/999 (t = 4.88062e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2973694083484588e-06
+Converged: False
+Iterations: 100
+Final error: 4.648083177016815e-06
+[MEM] step 907: RSS 0.34 GB
+[INFO] Processing time step 909/999 (t = 4.91883e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.218988129243371e-06
+Converged: False
+Iterations: 100
+Final error: 2.0340903574833646e-06
+[MEM] step 908: RSS 0.34 GB
+[INFO] Processing time step 910/999 (t = 4.95734e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.416484676359687e-06
+Converged: False
+Iterations: 100
+Final error: 2.1082312287035165e-06
+[MEM] step 909: RSS 0.34 GB
+[INFO] Processing time step 911/999 (t = 4.99615e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.534218992877868e-06
+Converged: False
+Iterations: 100
+Final error: 3.6419510252017062e-06
+[MEM] step 910: RSS 0.34 GB
+[INFO] Processing time step 912/999 (t = 5.03527e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.8699246286123525e-06
+Converged: False
+Iterations: 100
+Final error: 1.337254730060522e-06
+[MEM] step 911: RSS 0.34 GB
+[INFO] Processing time step 913/999 (t = 5.07469e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5794439605087973e-06
+Converged: False
+Iterations: 100
+Final error: 3.3981284559558844e-06
+[MEM] step 912: RSS 0.34 GB
+[INFO] Processing time step 914/999 (t = 5.11442e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2295997748879017e-06
+Converged: False
+Iterations: 100
+Final error: 2.8390452371240826e-06
+[MEM] step 913: RSS 0.34 GB
+[INFO] Processing time step 915/999 (t = 5.15446e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6594067346886732e-06
+Converged: False
+Iterations: 100
+Final error: 1.614783400327724e-06
+[MEM] step 914: RSS 0.34 GB
+[INFO] Processing time step 916/999 (t = 5.19481e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2791423387170653e-06
+Converged: False
+Iterations: 100
+Final error: 1.3157080047676573e-06
+[MEM] step 915: RSS 0.34 GB
+[INFO] Processing time step 917/999 (t = 5.23548e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.268025809826213e-06
+Converged: False
+Iterations: 100
+Final error: 2.9383072615019046e-06
+[MEM] step 916: RSS 0.34 GB
+[INFO] Processing time step 918/999 (t = 5.27647e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.7192971831245814e-06
+Converged: False
+Iterations: 100
+Final error: 1.990358214243315e-06
+[MEM] step 917: RSS 0.34 GB
+[INFO] Processing time step 919/999 (t = 5.31778e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3560107845478342e-06
+Converged: False
+Iterations: 100
+Final error: 3.136988652840955e-06
+[MEM] step 918: RSS 0.34 GB
+[INFO] Processing time step 920/999 (t = 5.35941e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.297767645766726e-06
+Converged: False
+Iterations: 100
+Final error: 1.3979968116473174e-06
+[MEM] step 919: RSS 0.34 GB
+[INFO] Processing time step 921/999 (t = 5.40137e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.2623015613353346e-06
+Converged: False
+Iterations: 100
+Final error: 2.675425093912054e-06
+[MEM] step 920: RSS 0.34 GB
+[INFO] Processing time step 922/999 (t = 5.44365e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.9598319340730086e-06
+Converged: False
+Iterations: 100
+Final error: 1.8172888758272165e-06
+[MEM] step 921: RSS 0.34 GB
+[INFO] Processing time step 923/999 (t = 5.48627e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.727000494611275e-06
+Converged: False
+Iterations: 100
+Final error: 1.6572978438489372e-06
+[MEM] step 922: RSS 0.34 GB
+[INFO] Processing time step 924/999 (t = 5.52922e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3850567484041676e-06
+Converged: False
+Iterations: 100
+Final error: 3.467669102974469e-06
+[MEM] step 923: RSS 0.34 GB
+[INFO] Processing time step 925/999 (t = 5.57250e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5052247590574552e-06
+Converged: False
+Iterations: 100
+Final error: 4.345866727817338e-06
+[MEM] step 924: RSS 0.34 GB
+[INFO] Processing time step 926/999 (t = 5.61613e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3410217434284277e-06
+Converged: False
+Iterations: 100
+Final error: 2.9728889785474166e-06
+[MEM] step 925: RSS 0.34 GB
+[INFO] Processing time step 927/999 (t = 5.66009e-01)...
+Converged: False
+Iterations: 100
+Final error: 6.4271202973031905e-06
+Converged: False
+Iterations: 100
+Final error: 1.5779231716805953e-06
+[MEM] step 926: RSS 0.34 GB
+[INFO] Processing time step 928/999 (t = 5.70440e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.0621491785277613e-06
+Converged: False
+Iterations: 100
+Final error: 2.5462406938459026e-06
+[MEM] step 927: RSS 0.34 GB
+[INFO] Processing time step 929/999 (t = 5.74905e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.622607098601293e-06
+Converged: False
+Iterations: 100
+Final error: 3.1230399599735392e-06
+[MEM] step 928: RSS 0.34 GB
+[INFO] Processing time step 930/999 (t = 5.79406e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.2196528486092575e-06
+Converged: False
+Iterations: 100
+Final error: 1.2700398883680464e-06
+[MEM] step 929: RSS 0.34 GB
+[INFO] Processing time step 931/999 (t = 5.83942e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.240186055743834e-06
+Converged: False
+Iterations: 100
+Final error: 6.342534106806852e-06
+[MEM] step 930: RSS 0.34 GB
+[INFO] Processing time step 932/999 (t = 5.88513e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1498661933728727e-06
+Converged: False
+Iterations: 100
+Final error: 2.8734064017044147e-06
+[MEM] step 931: RSS 0.34 GB
+[INFO] Processing time step 933/999 (t = 5.93120e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.2172519038576866e-06
+Converged: False
+Iterations: 100
+Final error: 1.6870177432792843e-06
+[MEM] step 932: RSS 0.34 GB
+[INFO] Processing time step 934/999 (t = 5.97763e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.806381646929367e-06
+Converged: False
+Iterations: 100
+Final error: 4.338281087257201e-06
+[MEM] step 933: RSS 0.34 GB
+[INFO] Processing time step 935/999 (t = 6.02442e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4216802810551599e-06
+Converged: False
+Iterations: 100
+Final error: 3.4974207210325403e-06
+[MEM] step 934: RSS 0.34 GB
+[INFO] Processing time step 936/999 (t = 6.07158e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.10166149372526e-06
+Converged: False
+Iterations: 100
+Final error: 2.8969946015422465e-06
+[MEM] step 935: RSS 0.34 GB
+[INFO] Processing time step 937/999 (t = 6.11911e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.6282528981246287e-06
+Converged: False
+Iterations: 100
+Final error: 5.174040779820643e-06
+[MEM] step 936: RSS 0.34 GB
+[INFO] Processing time step 938/999 (t = 6.16701e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.7034009235649137e-06
+Converged: False
+Iterations: 100
+Final error: 1.3834476249030558e-06
+[MEM] step 937: RSS 0.34 GB
+[INFO] Processing time step 939/999 (t = 6.21528e-01)...
+Converged: False
+Iterations: 100
+Final error: 8.01984697318403e-06
+Converged: False
+Iterations: 100
+Final error: 2.7008354663848877e-06
+[MEM] step 938: RSS 0.34 GB
+[INFO] Processing time step 940/999 (t = 6.26393e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.9527772110450314e-06
+Converged: False
+Iterations: 100
+Final error: 1.4546102420354146e-06
+[MEM] step 939: RSS 0.34 GB
+[INFO] Processing time step 941/999 (t = 6.31297e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.644200549184461e-06
+Converged: False
+Iterations: 100
+Final error: 1.6221233636315446e-06
+[MEM] step 940: RSS 0.34 GB
+[INFO] Processing time step 942/999 (t = 6.36238e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.4322864646819653e-06
+Converged: False
+Iterations: 100
+Final error: 1.9076433090958744e-06
+[MEM] step 941: RSS 0.34 GB
+[INFO] Processing time step 943/999 (t = 6.41218e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.758481286946335e-06
+Converged: False
+Iterations: 100
+Final error: 5.06347942064167e-06
+[MEM] step 942: RSS 0.34 GB
+[INFO] Processing time step 944/999 (t = 6.46238e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.053125278209336e-06
+Converged: False
+Iterations: 100
+Final error: 1.6274061636067927e-06
+[MEM] step 943: RSS 0.34 GB
+[INFO] Processing time step 945/999 (t = 6.51296e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2778831433024607e-06
+Converged: False
+Iterations: 100
+Final error: 2.0193961063341703e-06
+[MEM] step 944: RSS 0.34 GB
+[INFO] Processing time step 946/999 (t = 6.56394e-01)...
+Converged: False
+Iterations: 100
+Final error: 6.4486926021345425e-06
+Converged: False
+Iterations: 100
+Final error: 3.325991656311089e-06
+[MEM] step 945: RSS 0.34 GB
+[INFO] Processing time step 947/999 (t = 6.61532e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.928419806063175e-06
+Converged: False
+Iterations: 100
+Final error: 2.338966169190826e-06
+[MEM] step 946: RSS 0.34 GB
+[INFO] Processing time step 948/999 (t = 6.66710e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.542919219195028e-06
+Converged: False
+Iterations: 100
+Final error: 1.6847128563313163e-06
+[MEM] step 947: RSS 0.34 GB
+[INFO] Processing time step 949/999 (t = 6.71929e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.4526898414478637e-06
+Converged: False
+Iterations: 100
+Final error: 3.6423225537873805e-06
+[MEM] step 948: RSS 0.34 GB
+[INFO] Processing time step 950/999 (t = 6.77188e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.7308919925417285e-06
+Converged: False
+Iterations: 100
+Final error: 1.5819681493667304e-06
+[MEM] step 949: RSS 0.34 GB
+[INFO] Processing time step 951/999 (t = 6.82489e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3221264225649065e-06
+Converged: False
+Iterations: 100
+Final error: 4.414261638885364e-06
+[MEM] step 950: RSS 0.34 GB
+[INFO] Processing time step 952/999 (t = 6.87831e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.247870037943358e-06
+Converged: False
+Iterations: 100
+Final error: 3.3795345188991632e-06
+[MEM] step 951: RSS 0.34 GB
+[INFO] Processing time step 953/999 (t = 6.93215e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.260738710901933e-06
+Converged: False
+Iterations: 100
+Final error: 1.0917186045844574e-05
+[MEM] step 952: RSS 0.34 GB
+[INFO] Processing time step 954/999 (t = 6.98641e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.1675675674923696e-06
+Converged: False
+Iterations: 100
+Final error: 1.2832800848627812e-06
+[MEM] step 953: RSS 0.34 GB
+[INFO] Processing time step 955/999 (t = 7.04109e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6832294704727246e-06
+Converged: False
+Iterations: 100
+Final error: 3.327176500533824e-06
+[MEM] step 954: RSS 0.34 GB
+[INFO] Processing time step 956/999 (t = 7.09621e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.225532853117329e-06
+Converged: False
+Iterations: 100
+Final error: 2.0682307422248414e-06
+[MEM] step 955: RSS 0.34 GB
+[INFO] Processing time step 957/999 (t = 7.15175e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.4421964301145636e-06
+Converged: False
+Iterations: 100
+Final error: 1.800317591005296e-06
+[MEM] step 956: RSS 0.34 GB
+[INFO] Processing time step 958/999 (t = 7.20773e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.3018917545414297e-06
+Converged: False
+Iterations: 100
+Final error: 3.9118317545217e-06
+[MEM] step 957: RSS 0.34 GB
+[INFO] Processing time step 959/999 (t = 7.26414e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.6095755199785344e-06
+Converged: False
+Iterations: 100
+Final error: 5.21294441568898e-06
+[MEM] step 958: RSS 0.34 GB
+[INFO] Processing time step 960/999 (t = 7.32100e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4222463278201758e-06
+Converged: False
+Iterations: 100
+Final error: 1.5371325616797549e-06
+[MEM] step 959: RSS 0.34 GB
+[INFO] Processing time step 961/999 (t = 7.37830e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4813779216638068e-06
+Converged: False
+Iterations: 100
+Final error: 1.3772796592093073e-06
+[MEM] step 960: RSS 0.34 GB
+[INFO] Processing time step 962/999 (t = 7.43605e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.971442543435842e-06
+Converged: False
+Iterations: 100
+Final error: 2.0371921891637612e-06
+[MEM] step 961: RSS 0.34 GB
+[INFO] Processing time step 963/999 (t = 7.49425e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3193262020649854e-06
+Converged: False
+Iterations: 100
+Final error: 3.4279655665159225e-06
+[MEM] step 962: RSS 0.34 GB
+[INFO] Processing time step 964/999 (t = 7.55291e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.18433251575334e-06
+Converged: False
+Iterations: 100
+Final error: 3.0943285764806205e-06
+[MEM] step 963: RSS 0.34 GB
+[INFO] Processing time step 965/999 (t = 7.61203e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.160478970836266e-06
+Converged: False
+Iterations: 100
+Final error: 1.1660099517030176e-06
+[MEM] step 964: RSS 0.34 GB
+[INFO] Processing time step 966/999 (t = 7.67160e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.237973947354476e-06
+Converged: False
+Iterations: 100
+Final error: 1.366491119370039e-06
+[MEM] step 965: RSS 0.34 GB
+[INFO] Processing time step 967/999 (t = 7.73165e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.117476014973363e-06
+Converged: False
+Iterations: 100
+Final error: 1.9974818314949516e-06
+[MEM] step 966: RSS 0.34 GB
+[INFO] Processing time step 968/999 (t = 7.79216e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.2414146769733634e-06
+Converged: False
+Iterations: 100
+Final error: 1.6735967847125721e-06
+[MEM] step 967: RSS 0.34 GB
+[INFO] Processing time step 969/999 (t = 7.85315e-01)...
+Converged: False
+Iterations: 100
+Final error: 6.822955583629664e-06
+Converged: False
+Iterations: 100
+Final error: 1.7822389963839669e-06
+[MEM] step 968: RSS 0.34 GB
+[INFO] Processing time step 970/999 (t = 7.91461e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.522445472801337e-06
+Converged: False
+Iterations: 100
+Final error: 1.654783886806399e-06
+[MEM] step 969: RSS 0.34 GB
+[INFO] Processing time step 971/999 (t = 7.97656e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.974533915927168e-06
+Converged: False
+Iterations: 100
+Final error: 3.7373222312453436e-06
+[MEM] step 970: RSS 0.34 GB
+[INFO] Processing time step 972/999 (t = 8.03899e-01)...
+Converged: False
+Iterations: 100
+Final error: 4.196297595626675e-06
+Converged: False
+Iterations: 100
+Final error: 1.335489287157543e-06
+[MEM] step 971: RSS 0.34 GB
+[INFO] Processing time step 973/999 (t = 8.10191e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.2226729495523614e-06
+Converged: False
+Iterations: 100
+Final error: 1.4275252624429413e-06
+[MEM] step 972: RSS 0.34 GB
+[INFO] Processing time step 974/999 (t = 8.16532e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4797094536334043e-06
+Converged: False
+Iterations: 100
+Final error: 1.915451321110595e-06
+[MEM] step 973: RSS 0.34 GB
+[INFO] Processing time step 975/999 (t = 8.22922e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.2735129025240894e-06
+Converged: False
+Iterations: 100
+Final error: 1.3944930969955749e-06
+[MEM] step 974: RSS 0.34 GB
+[INFO] Processing time step 976/999 (t = 8.29363e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1631559573288541e-06
+Converged: False
+Iterations: 100
+Final error: 2.5908691441145493e-06
+[MEM] step 975: RSS 0.34 GB
+[INFO] Processing time step 977/999 (t = 8.35854e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4322614561024238e-06
+Converged: False
+Iterations: 100
+Final error: 1.6198845287362929e-06
+[MEM] step 976: RSS 0.34 GB
+[INFO] Processing time step 978/999 (t = 8.42396e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4234752825359465e-06
+Converged: False
+Iterations: 100
+Final error: 1.5557135384369758e-06
+[MEM] step 977: RSS 0.34 GB
+[INFO] Processing time step 979/999 (t = 8.48989e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.731773520281422e-06
+Converged: False
+Iterations: 100
+Final error: 1.4834375861028093e-06
+[MEM] step 978: RSS 0.34 GB
+[INFO] Processing time step 980/999 (t = 8.55633e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.0576724182319595e-06
+Converged: False
+Iterations: 100
+Final error: 1.3155286069377325e-06
+[MEM] step 979: RSS 0.34 GB
+[INFO] Processing time step 981/999 (t = 8.62330e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.414335651541478e-06
+Converged: False
+Iterations: 100
+Final error: 1.6476947166665923e-06
+[MEM] step 980: RSS 0.34 GB
+[INFO] Processing time step 982/999 (t = 8.69079e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.0342096124513773e-06
+Converged: False
+Iterations: 100
+Final error: 1.3802941793983337e-06
+[MEM] step 981: RSS 0.34 GB
+[INFO] Processing time step 983/999 (t = 8.75881e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.38033305524732e-06
+Converged: False
+Iterations: 100
+Final error: 1.965093360922765e-06
+[MEM] step 982: RSS 0.34 GB
+[INFO] Processing time step 984/999 (t = 8.82735e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.7726523512683343e-06
+Converged: False
+Iterations: 100
+Final error: 3.5284872410557e-06
+[MEM] step 983: RSS 0.34 GB
+[INFO] Processing time step 985/999 (t = 8.89644e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.1397257821954554e-06
+Converged: False
+Iterations: 100
+Final error: 1.4483715631286032e-06
+[MEM] step 984: RSS 0.34 GB
+[INFO] Processing time step 986/999 (t = 8.96607e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.709538878458261e-06
+Converged: False
+Iterations: 100
+Final error: 2.24809468818421e-06
+[MEM] step 985: RSS 0.34 GB
+[INFO] Processing time step 987/999 (t = 9.03624e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.6230620733258547e-06
+Converged: False
+Iterations: 100
+Final error: 3.5872283206117572e-06
+[MEM] step 986: RSS 0.34 GB
+[INFO] Processing time step 988/999 (t = 9.10696e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.3867489769836538e-06
+Converged: False
+Iterations: 100
+Final error: 1.5094966556716827e-06
+[MEM] step 987: RSS 0.34 GB
+[INFO] Processing time step 989/999 (t = 9.17823e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.3061111278366297e-06
+Converged: False
+Iterations: 100
+Final error: 1.4514870372295263e-06
+[MEM] step 988: RSS 0.34 GB
+[INFO] Processing time step 990/999 (t = 9.25006e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.0902570011239732e-06
+Converged: False
+Iterations: 100
+Final error: 3.986932824773248e-06
+[MEM] step 989: RSS 0.34 GB
+[INFO] Processing time step 991/999 (t = 9.32245e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5380171589640668e-06
+Converged: False
+Iterations: 100
+Final error: 1.2153129318903666e-05
+[MEM] step 990: RSS 0.34 GB
+[INFO] Processing time step 992/999 (t = 9.39541e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.5428639699166524e-06
+Converged: False
+Iterations: 100
+Final error: 1.5555172012682306e-06
+[MEM] step 991: RSS 0.34 GB
+[INFO] Processing time step 993/999 (t = 9.46894e-01)...
+Converged: False
+Iterations: 100
+Final error: 2.2732879187969957e-06
+Converged: False
+Iterations: 100
+Final error: 1.493502281846304e-06
+[MEM] step 992: RSS 0.34 GB
+[INFO] Processing time step 994/999 (t = 9.54304e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.3058420285669854e-06
+Converged: False
+Iterations: 100
+Final error: 1.0815795121743577e-06
+[MEM] step 993: RSS 0.34 GB
+[INFO] Processing time step 995/999 (t = 9.61773e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.441349690547213e-06
+Converged: False
+Iterations: 100
+Final error: 3.0911828616808634e-06
+[MEM] step 994: RSS 0.34 GB
+[INFO] Processing time step 996/999 (t = 9.69299e-01)...
+Converged: False
+Iterations: 100
+Final error: 3.1954957648849813e-06
+Converged: False
+Iterations: 100
+Final error: 1.4769167364647728e-06
+[MEM] step 995: RSS 0.34 GB
+[INFO] Processing time step 997/999 (t = 9.76885e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.9155384052282898e-06
+Converged: False
+Iterations: 100
+Final error: 1.3261249023344135e-06
+[MEM] step 996: RSS 0.34 GB
+[INFO] Processing time step 998/999 (t = 9.84530e-01)...
+Converged: False
+Iterations: 100
+Final error: 1.4709803508594632e-06
+Converged: False
+Iterations: 100
+Final error: 6.717474207107443e-06
+[MEM] step 997: RSS 0.34 GB
+[INFO] Processing time step 999/999 (t = 9.92235e-01)...
+Converged: False
+Iterations: 100
+Final error: 5.016328486817656e-06
+Converged: False
+Iterations: 100
+Final error: 1.8486075532564428e-06
+[MEM] step 998: RSS 0.34 GB
+[INFO] All time steps processed. Generating plots...
+[INFO] C1/C2 color range: [0.1000, 3.0966]
+[INFO] phi color range: [-1.0000, 1.0000]
+[INFO] Saved: ./trial_08_xt_comparison.png
+[INFO] Saved: ./trial_08_l2_error_vs_time.png
+[INFO] All plots generated successfully!
+
+============================================================
+SUMMARY STATISTICS
+============================================================
+C1 L2 Error - Mean: nan, Max: nan, Min: nan
+C2 L2 Error - Mean: nan, Max: nan, Min: nan
+phi L2 Error - Mean: nan, Max: nan, Min: nan
+============================================================
